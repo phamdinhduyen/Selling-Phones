@@ -1,0 +1,878 @@
+{
+  "users": [
+    {
+      "email": "pdinhduyen@gmail.com",
+      "password": "$2a$10$omXqCyBySjB8J.OaKvgCNe1SjNKobJhGl3EjXWSaHLr.5dDboh7JG",
+      "id": "13785799-a2f8-4ede-8419-b7dcd3df8816",
+      "username": "pdid",
+      "is_admin": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 3,
+      "name": "Huawei"
+    },
+    {
+      "id": 4,
+      "name": "Vivo"
+    },
+    {
+      "id": 6,
+      "name": "Oppo"
+    },
+    {
+      "id": 5,
+      "name": "Realme"
+    },
+    {
+      "id": 2,
+      "name": "Samsung"
+    }
+  ],
+  "optprice": [
+    {
+      "label": " Dưới 5 triệu",
+      "value": [0, 4999999]
+    },
+    {
+      "label": "  Từ 5 triệu đến 10 triệu",
+      "value": [4999999, 9999999]
+    },
+    {
+      "label": " Từ 10 triệu đén 20 triệu",
+      "value": [9999999, 19999999]
+    },
+    {
+      "label": "   Từ 20 triệu đến 40 triệu",
+      "value": [19999999, 39999999]
+    },
+    {
+      "label": " Tất cả",
+      "value": [0, 100000000000000000000]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ec56c675-f08d-436f-b278-83598d6ed30d",
+      "email": "pdinhduyen@gmail.com",
+      "total": 11790000,
+      "fullName": "PHAM DINH DUYEN",
+      "phone": 961598397,
+      "address": "quang nam",
+      "shipping": "shipping-free",
+      "created": "2022-11-15T07:26:26.052Z",
+      "status": "CREATED",
+      "product": [
+        {
+          "id": "1.2",
+          "name": "Điện thoại iPhone 11 64GB Mầu Đỏ",
+          "price": 11790000,
+          "color": "Đỏ",
+          "quantity": 1,
+          "total": 11790000,
+          "image": "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-1-1-1-org.jpg",
+          "email": "pdinhduyen@gmail.com"
+        }
+      ]
+    }
+  ],
+  "comment": [],
+  "bonus": [
+    {
+      "id": 1,
+      "code": "KHAITRUONG",
+      "description": "This is coupon for you",
+      "total_amount_apply": 10000000,
+      "start_date": "2022-10-29 00:00:00",
+      "end_date": "2022-10-30 00:00:00",
+      "is_percent": true,
+      "value": 15
+    },
+    {
+      "id": 2,
+      "code": "1111",
+      "description": "This is coupon for you",
+      "total_amount_apply": 10000000,
+      "start_date": "Sat Oct 29 2022 15:11:12 GMT+0700 (Indochina Time)",
+      "end_date": "Sat Oct 30 2022 15:11:12 GMT+0700 (Indochina Time)",
+      "is_percent": false,
+      "value": 20000
+    }
+  ],
+  "carousel": [
+    "https://cdn.tgdd.vn/2022/10/banner/720-220-720x220-172.png",
+    "https://cdn.tgdd.vn/2022/10/banner/720-220-720x220-157.png",
+    "https://cdn.tgdd.vn/2022/10/banner/720-220-720x220-177.png"
+  ],
+  "favorites": [
+    {
+      "user_id": "x12@gmail.com",
+      "product_id": 1,
+      "id": 1
+    },
+    {
+      "user_id": "x112@gmail.com",
+      "product_id": 1,
+      "id": 2
+    },
+    {
+      "user_id": "x412@gmail.com",
+      "product_id": 1,
+      "id": 3
+    },
+    {
+      "user_id": "x1@gmail.com",
+      "product_id": "1.2",
+      "id": 4
+    },
+    {
+      "user_id": "pdinhduyen@gmail.com",
+      "product_id": 3,
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Điện thoại iPhone 11 64GB ",
+      "slug": "Điện-thoại-iPhone-11-64GB ",
+      "price": 4790000,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "IOS",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-2-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-3-1-org.jpg"
+      ],
+      "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+      "categoryId": 1,
+      "content": "<p ><strong>Điện thoại iPhone</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-1-1-1-org.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" ><img  style=\" marginLeft: 200\" src=\"https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+      "variants": [
+        {
+          "id": "1.1",
+          "name": "Điện thoại iPhone 11 64GB Màu Đen",
+          "slug": "Điện-thoại-iPhone-11-64GB ",
+          "price": 4790000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-2-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-3-1-org.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "color": "Đen",
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại iPhone</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-1-1-1-org.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        },
+        {
+          "id": "1.2",
+          "name": "Điện thoại iPhone 11 64GB Mầu Đỏ",
+          "slug": "Điện-thoại-iPhone-11-64GB ",
+          "price": 4790000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-1-1-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-3-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-2-1-org.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "categoryId": 1,
+          "color": "Đỏ",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại iPhone</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-1-1-1-org.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Điện thoại iPhone 13 Pro Max 512GB",
+      "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB ",
+      "price": 11790000,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "IOS",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+
+      "content": "<p class=\"ql-align-justify\"><strong>Điện thoại iPhone</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-2-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-3-1.jpg"
+      ],
+      "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 13, trong đó phiên bản iPhone 13 512GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+      "categoryId": 1,
+      "variants": [
+        {
+          "id": "2.1",
+          "name": "Điện thoại iPhone 13 Pro Max 512GB Màu vàng đồng",
+          "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB ",
+          "price": 4200000,
+
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-2-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-3-1.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "color": "Vàng đồng",
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại iPhone</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        },
+        {
+          "id": "2.2",
+          "name": "Điện thoại iPhone 13 Pro Max 512GB màu xám",
+          "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB ",
+          "price": 33900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-2-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-3-2.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "categoryId": 1,
+          "color": "Xám",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại iPhone</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Điện thoại iPhone 14 Pro Max 128GB",
+      "slug": "Điện-thoại-iPhone-14-Pro-Max -128GB ",
+      "price": 33990000,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "IOS",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+
+      "content": "<p class=\"ql-align-justify\"><strong>Điện thoại iPhone</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-1-1.jpg"
+      ],
+      "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 14, trong đó phiên bản iPhone 14 512GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+      "categoryId": 1,
+      "variants": [
+        {
+          "id": "3.1",
+          "name": "Điện thoại iPhone 14 Pro Max 128GB Màu Tím",
+          "slug": "Điện-thoại-iPhone-14-Pro-Max -128GB ",
+          "price": 33990000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-4.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "color": "Tím",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại iPhone</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        },
+        {
+          "id": "3.2",
+          "name": "Điện thoại iPhone 14 Pro Max 128GB Màu Đen",
+          "slug": "Điện-thoại-iPhone-14-Pro-Max -128GB ",
+          "price": 43900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-2-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-3-1-org.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "categoryId": 1,
+          "color": "Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại iPhone</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Điện thoại Vivo V25E",
+      "slug": "Điện-thoại-Vivo-V25E ",
+      "price": 84900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-2-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-10.jpg"
+      ],
+      "description": "Cùng với Vivo V25, nhà sản xuất Trung Quốc cũng đã tung ra thị trường mẫu điện thoại Vivo V25E mới sở hữu thiết kế vô cùng hiện đại và độc đáo với mặt lưng kính có thể thay đổi màu sắc, camera 64 MP hỗ trợ OIS và sạc nhanh 44 W, đáp ứng đầy đủ nhu cầu của người dùng.",
+      "categoryId": 4,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+
+      "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+
+      "variants": [
+        {
+          "id": "4.1",
+          "name": "Điện thoại Vivo V25E Màu Vàng đồng",
+          "slug": "Điện-thoại-Vivo-V25E ",
+          "price": 84900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-2-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-10.jpg"
+          ],
+          "description": "Cùng với Vivo V25, nhà sản xuất Trung Quốc cũng đã tung ra thị trường mẫu điện thoại Vivo V25E mới sở hữu thiết kế vô cùng hiện đại và độc đáo với mặt lưng kính có thể thay đổi màu sắc, camera 64 MP hỗ trợ OIS và sạc nhanh 44 W, đáp ứng đầy đủ nhu cầu của người dùng.",
+          "categoryId": 4,
+          "color": "Vàng đồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        },
+        {
+          "id": "4.2",
+          "name": "Điện thoại Vivo V25E Màu Đen",
+          "slug": "Điện-thoại-Vivo-V25E ",
+          "price": 81900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-1-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-5-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-6-2.jpg"
+          ],
+          "description": "Cùng với Vivo V25, nhà sản xuất Trung Quốc cũng đã tung ra thị trường mẫu điện thoại Vivo V25E mới sở hữu thiết kế vô cùng hiện đại và độc đáo với mặt lưng kính có thể thay đổi màu sắc, camera 64 MP hỗ trợ OIS và sạc nhanh 44 W, đáp ứng đầy đủ nhu cầu của người dùng.",
+          "categoryId": 4,
+          "color": "Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Điện thoại Vivo Y15s",
+      "slug": "Điện-thoại-Vivo-Y15s ",
+      "price": 31900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-5.jpg"
+      ],
+      "description": "Vivo Y15s sở hữu nhiều điểm tương đồng với những người anh em Vivo Y15 của mình khi toàn bộ thân máy làm bằng Polymer cao cấp, thiết kế cong cạnh 3D và kiểu dáng mỏng nhẹ chỉ 8.28 mm đem lại cảm giác cầm máy trong tay khá thoải mái.",
+      "categoryId": 4,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+
+      "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+      "variants": [
+        {
+          "id": "5.1",
+          "name": "Điện thoại Vivo Y15s Xanh Đen",
+          "slug": "Điện-thoại-Vivo-Y15s ",
+          "price": 31900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-5.jpg"
+          ],
+          "description": "Vivo Y15s sở hữu nhiều điểm tương đồng với những người anh em Vivo Y15 của mình khi toàn bộ thân máy làm bằng Polymer cao cấp, thiết kế cong cạnh 3D và kiểu dáng mỏng nhẹ chỉ 8.28 mm đem lại cảm giác cầm máy trong tay khá thoải mái.",
+          "categoryId": 4,
+          "color": "Xanh Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        },
+        {
+          "id": "5.2",
+          "name": "Điện thoại Vivo V25E Trắng Xanh",
+          "slug": "Điện-thoại-Vivo-Y15s ",
+          "price": 32900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-tx-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-tx-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-tx-5.jpg"
+          ],
+          "description": "Vivo Y15s sở hữu nhiều điểm tương đồng với những người anh em Vivo Y15 của mình khi toàn bộ thân máy làm bằng Polymer cao cấp, thiết kế cong cạnh 3D và kiểu dáng mỏng nhẹ chỉ 8.28 mm đem lại cảm giác cầm máy trong tay khá thoải mái.",
+          "categoryId": 4,
+          "color": "Trắng xanh",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Điện thoại Vivo V23e ",
+      "slug": "Điện-thoại-Vivo-V23e  ",
+      "price": 74900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-5.jpg"
+      ],
+      "description": "Vivo V23e vẫn giữ đặc điểm nổi bật của Vivo V Series với thiết kế mỏng 7.36 mm ấn tượng (ở phiên bản màu đen). Viền màn hình 2 cạnh bên có độ mỏng ở mức vừa phải, tuy nhiên thì phần cạnh dưới thì có dày hơn một chút.",
+      "categoryId": 4,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+
+      "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+      "variants": [
+        {
+          "id": "6.1",
+          "name": "Điện thoại Vivo V23e Xanh hồng",
+          "slug": "Điện-thoại-Vivo-V23e  ",
+          "price": 74900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-5.jpg"
+          ],
+          "description": "Vivo V23e vẫn giữ đặc điểm nổi bật của Vivo V Series với thiết kế mỏng 7.36 mm ấn tượng (ở phiên bản màu đen). Viền màn hình 2 cạnh bên có độ mỏng ở mức vừa phải, tuy nhiên thì phần cạnh dưới thì có dày hơn một chút.",
+          "categoryId": 4,
+          "color": "Xanh hồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        },
+        {
+          "id": "6.2",
+          "name": "Điện thoại Vivo V23e Xanh hồng Đen",
+          "slug": "Điện-thoại-Vivo-V23e  ",
+          "price": 32900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-den-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-den-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-den-5.jpg"
+          ],
+          "description": "Vivo V23e vẫn giữ đặc điểm nổi bật của Vivo V Series với thiết kế mỏng 7.36 mm ấn tượng (ở phiên bản màu đen). Viền màn hình 2 cạnh bên có độ mỏng ở mức vừa phải, tuy nhiên thì phần cạnh dưới thì có dày hơn một chút.",
+          "categoryId": 4,
+          "color": "Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Điện thoại Samsung Galaxy Z Flip4 128GB  ",
+      "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+      "price": 29900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-5.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-6.jpg"
+      ],
+      "description": "Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất điện thoại đã cho ra mắt các sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .",
+      "categoryId": 2,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+
+      "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+      "variants": [
+        {
+          "id": "7.1",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Xanh hồng  ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 29900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-5.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-6.jpg"
+          ],
+          "description": "Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất điện thoại đã cho ra mắt các sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .",
+          "categoryId": 2,
+          "color": "Xanh hồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        },
+        {
+          "id": "7.2",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Vàng đồng  ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 29900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/258047/sam-sung-galaxy-zflip4-vang-hong-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/sam-sung-galaxy-zflip4-vang-hong-3.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/sam-sung-galaxy-zflip4-vang-hong-2.jpg"
+          ],
+          "description": "Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất điện thoại đã cho ra mắt các sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .",
+          "categoryId": 2,
+          "color": "Vàng đồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Điện thoại Samsung Galaxy Z Flip4 128GB  ",
+      "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+      "price": 27900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+      ],
+      "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+      "categoryId": 2,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+
+      "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>",
+      "variants": [
+        {
+          "id": "8.1",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Đỏ",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        },
+        {
+          "id": "8.2",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Vàng đồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+
+          "content": "<p class=\"ql-align-justify\"><strong>Điện thoại Vivo</strong> được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.</p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\"><a href=\"https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\"><img src=\"https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg\" alt=\"Điện thoại iPhone - Thiết kế\"></a></p><p class=\"ql-align-justify\"><br></p><p class=\"ql-align-justify\">Phần mặt lưng&nbsp;<a href=\"https://www.thegioididong.com/dtdd\" rel=\"noopener noreferrer\" target=\"_blank\" style=\"color: rgb(47, 128, 237);\">điện thoại</a>&nbsp;được làm nhám nên hạn chế tốt việc bám dấu vân tay, có thiết kế cũng khá đơn giản nhưng vẫn toát lên vẻ sang trọng và cao cấp của chiếc máy. Cụm camera sau trên Điện thoại iPhone được thiết kế trần tạo cảm giác gọn gàng và cũng tạo nên một điểm nhấn độc đáo cho chiếc máy.</p>"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Điện thoại Samsung Galaxy Z Flip4 128GB  ",
+      "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB-1  ",
+      "price": 27900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+      ],
+      "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+      "categoryId": 2,
+      "variants": [
+        {
+          "id": "9.1",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB-1  ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Đỏ"
+        },
+        {
+          "id": "9.2",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB-1  ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Vàng đồng"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Điện thoại Samsung Galaxy Z Flip4 128GB  ",
+      "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB-2  ",
+      "price": 27900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+      ],
+      "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+      "categoryId": 2,
+      "variants": [
+        {
+          "id": "10.1",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB-2  ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Đỏ"
+        },
+        {
+          "id": "10.2",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB-2  ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Vàng đồng"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Điện thoại Samsung Galaxy Z Flip4 128GB  ",
+      "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB-3 ",
+      "price": 27900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+      ],
+      "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+      "categoryId": 2,
+      "variants": [
+        {
+          "id": "11.1",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB-3 ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Đỏ"
+        },
+        {
+          "id": "11.2",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB-3 ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Vàng đồng"
+        }
+      ]
+    }
+  ]
+}

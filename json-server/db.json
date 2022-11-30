@@ -1,0 +1,1331 @@
+{
+  "users": [
+    {
+      "email": "pdinhduyen@gmail.com",
+      "password": "$2a$10$ovKSrjX7yMxP7ye2vVkZJeMNMwFhr2ONXNJwhdmLjzuELQUDe2fpq",
+      "id": "f7a754f4-da0f-4e09-b3aa-d6311d0b8ed1",
+      "username": "PHAM DINH DUYEN",
+      "is_admin": false
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Apple"
+    },
+    {
+      "id": 4,
+      "name": "Vivo"
+    },
+    {
+      "id": 6,
+      "name": "Oppo"
+    },
+    {
+      "id": 2,
+      "name": "Samsung"
+    }
+  ],
+  "optprice": [
+    {
+      "label": " Dưới 5 triệu",
+      "value": [0, 4999999]
+    },
+    {
+      "label": "  Từ 5 triệu đến 10 triệu",
+      "value": [4999999, 9999999]
+    },
+    {
+      "label": " Từ 10 triệu đén 20 triệu",
+      "value": [9999999, 19999999]
+    },
+    {
+      "label": "   Từ 20 triệu đến 40 triệu",
+      "value": [19999999, 39999999]
+    }
+  ],
+  "orders": [
+    {
+      "id": "29b10b76-9f4a-45ac-8c96-f400d2a7d2e1",
+      "email": "pdinhduyen@gmail.com",
+      "total": 135420000,
+      "fullName": "PHAM DINH DUYEN",
+      "phone": 334456835,
+      "address": "DA NANG",
+      "note": "GIAO HANG SOM",
+      "shipping": "shipping-wasteful",
+      "created": "26-11-2022",
+      "status": "CREATED",
+      "product": [
+        {
+          "id": "2.2",
+          "name": "Điện thoại iPhone 13 Pro Max 512GB màu xám",
+          "price": 33900000,
+          "color": "Xám",
+          "quantity": 4,
+          "total": 135600000,
+          "image": "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-2.jpg",
+          "email": "pdinhduyen@gmail.com",
+          "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB -2"
+        }
+      ]
+    }
+  ],
+  "comment": [
+    {
+      "user_id": "pdinhduyen@gmail.com",
+      "product_id": 1,
+      "comment_content": "hàng đẹp quá\n",
+      "id": 1
+    },
+    {
+      "user_id": "nguyenvana@gmail.com",
+      "product_id": 1,
+      "comment_content": "hàng đẹp quá\n",
+      "id": 2
+    },
+    {
+      "user_id": "pdinhduyen@gmail.com",
+      "product_id": 2,
+      "comment_content": "SAN PHAM KHONG TOT",
+      "id": 3
+    }
+  ],
+  "bonus": [
+    {
+      "id": 1,
+      "code": "KHAITRUONG",
+      "description": "This is coupon for you",
+      "total_amount_apply": 10000000,
+      "start_date": "20-11-2022",
+      "end_date": "30-11-2022",
+      "is_percent": true,
+      "value": 15,
+      "rate": "%"
+    },
+    {
+      "id": 2,
+      "code": "1111",
+      "description": "This is coupon for you",
+      "total_amount_apply": 10000000,
+      "start_date": "24-11-2022",
+      "end_date": "30-12-2022",
+      "is_percent": false,
+      "value": 200000,
+      "rate": ""
+    }
+  ],
+  "carousel": [
+    "https://cdn.tgdd.vn/2022/11/banner/720-220-720x220-225.png",
+    "https://cdn.tgdd.vn/2022/11/banner/720-220-720x220-219.png",
+    "https://cdn.tgdd.vn/2022/11/banner/720-220-720x220-221.png"
+  ],
+  "favorites": [
+    {
+      "user_id": "x12@gmail.com",
+      "product_id": 1,
+      "id": 1
+    },
+    {
+      "user_id": "x112@gmail.com",
+      "product_id": 1,
+      "id": 2
+    },
+    {
+      "user_id": "x412@gmail.com",
+      "product_id": 1,
+      "id": 3
+    },
+    {
+      "user_id": "x1@gmail.com",
+      "product_id": "1.2",
+      "id": 4
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 6
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 7
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 8
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 9
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 10
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 11
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 12
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 13
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 14
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 15
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 16
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 17
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": "1.2",
+      "id": 18
+    },
+    {
+      "user_id": "nguyenvanc@gmail.com",
+      "product_id": 1,
+      "id": 19
+    },
+    {
+      "user_id": "phamdinhduyen12@gmail.com",
+      "product_id": 2,
+      "id": 20
+    },
+    {
+      "user_id": "pdinhduyen@gmail.com",
+      "product_id": 2,
+      "id": 21
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Điện thoại iPhone 11 64GB ",
+      "slug": "Điện-thoại-iPhone-11-64GB ",
+      "price": 4790000,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "IOS",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+      "color": "Đen",
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-2-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-3-1-org.jpg"
+      ],
+      "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+      "categoryId": 1,
+      "content": "<h4> <strong> Apple chính thức trình làng bộ ba siêu phẩm iPhone 11 Series cao cấp nhất với A13 hay iOS 13 mạnh mẽ</strong > </h4> <span> Trong bài viết này hãy cùng tìm hiểu iPhone 11, sản phẩm có hiệu năng mạnh mẽ và toàn diện nhất trong giới công nghệ, cùng với đó là tổ hợp nhiều cải tiến tính năng thông minh mang lại hiệu quả cực cao cho người trải nghiệm siêu phẩm. Hơn thế nữa, khi là khách hàng của 24hStore - Hệ thống ủy quyền chính hãng của Apple (AAR) các bạn hoàn toàn có thể yên tâm về mọi mặt từ chất lượng, ưu đãi đến bảo hành. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-2.jpg\" /> <h1> Apple iPhone 11 64GB - Phiên bản đa sắc nhất của Nhà Táo </h1> ><span> Apple luôn thế! Phiên bản iPhone 11 năm nay được trang bị nhiều tính năng thông minh và mang lại hiệu quả cao cho người trải nghiệm, thực sự mà nói sản phẩm iPhone 11 2019 đúng chất là những siêu phẩm toàn diện nhất ở thời điểm hiện tại. Kèm với đó, không một smartphone nào khác có tính bảo mật an toàn tuyệt đối như iPhone, đặc biệt hơn hết, Apple đã cho kích hoạt tính năng luân chuyển camera tự động cực thông minh trên các biến thể iPhone năm nay,... Và kèm rất rất nhiều các tính năng tiện lợi khác bổ ích cho công việc hay cuộc sống của bạn.</span <br> <span> Apple chính thức trang bị cho sản phẩm iPhone 11 64GB hay các biến thể iPhone 11 bộ cảm biến đa nhiệm hoàn toàn siêu việt, nó có khả năng khuếch đại tần suất để tăng tốc độ xử lý hiệu ứng một cách nhanh chóng (con số ước chừng có thể đạt 30%). Ngoài ra, cụm cảm biến camera kép sáng tạo cũng chính là tiêu chuẩn ở iPhone 11 năm nay, nó đồng bộ 12 MP trên cả iPhone 11 Pro Apple hay iPhone 11 Pro Max. Qua đó, đây cũng là điểm nhấn đáng chú ý trên các mẫu iPhone 11 được trình làng năm nay. Kèm với đó, phiên bản hệ điều hành iOS 13 huyền bí cũng là tiêu chuẩn để sở hữu những tác vụ cũng như hoạt động ở một giao diện với mật độ hiển thị khung hình một cách khoa học và dễ dàng thao tác nhất. Thế nên, giá để người tiêu dùng sở hữu một chiếc iPhone 11 mới là rất cao so với các mẫu điện thoại thông minh bình thướng khác. </span> </div> > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-1(2).jpg\" /> <h1>Đánh giá khách quan về mẫu iPhone 11 của 24hStore</h1> <span> 24hStore đã tiến hành đánh giá tổng thể với iPhone 11, iPhone 11 Pro và iPhone 11 99%. Về thiết kế, chúng trông nổi bật như iPhone XR, iPhone XS và iPhone XS Max năm ngoái, từ màn hình điểm Notch đến toàn bộ mọi thứ bên trong hay mặt lưng của sản phẩm. Màu sắc hay thiết kế mọi thứ trông hoàn thiện đến mức cảm nhận tinh tế hơn, và đặc biệt siêu phẩm rất giống so với sản phẩm iPhone XR trước đó. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-cu-15(1).jpg\" /> <span> Điều ấn tượng là sự hợp nhất giữa pin lớn hơn 5% và chipset kết quả hơn 40%, cho thấy Apple đã tăng nhu cầu sử dụng thêm một giờ trải nghiệm thiết bị so với iPhone XR trước đó. Điều này có thể nói rằng, bất kỳ điện thoại iPhone 11 nào đều sẽ kéo dài thời lượng pin hơn một giờ so với iPhone XR hay iPhone XS, iPhone XS Max trước đó. </span>",
+      "variants": [
+        {
+          "id": "1.1",
+          "name": "Điện thoại iPhone 11 64GB Màu Đen",
+          "slug": "Điện-thoại-iPhone-11-64GB ",
+          "price": 4790000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-2-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-3-1-org.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "color": "Đen",
+          "content": "<h4> <strong> Apple chính thức trình làng bộ ba siêu phẩm iPhone 11 Series cao cấp nhất với A13 hay iOS 13 mạnh mẽ</strong > </h4> <span> Trong bài viết này hãy cùng tìm hiểu iPhone 11, sản phẩm có hiệu năng mạnh mẽ và toàn diện nhất trong giới công nghệ, cùng với đó là tổ hợp nhiều cải tiến tính năng thông minh mang lại hiệu quả cực cao cho người trải nghiệm siêu phẩm. Hơn thế nữa, khi là khách hàng của 24hStore - Hệ thống ủy quyền chính hãng của Apple (AAR) các bạn hoàn toàn có thể yên tâm về mọi mặt từ chất lượng, ưu đãi đến bảo hành. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-2.jpg\" /> <h1> Apple iPhone 11 64GB - Phiên bản đa sắc nhất của Nhà Táo </h1> ><span> Apple luôn thế! Phiên bản iPhone 11 năm nay được trang bị nhiều tính năng thông minh và mang lại hiệu quả cao cho người trải nghiệm, thực sự mà nói sản phẩm iPhone 11 2019 đúng chất là những siêu phẩm toàn diện nhất ở thời điểm hiện tại. Kèm với đó, không một smartphone nào khác có tính bảo mật an toàn tuyệt đối như iPhone, đặc biệt hơn hết, Apple đã cho kích hoạt tính năng luân chuyển camera tự động cực thông minh trên các biến thể iPhone năm nay,... Và kèm rất rất nhiều các tính năng tiện lợi khác bổ ích cho công việc hay cuộc sống của bạn.</span <br> <span> Apple chính thức trang bị cho sản phẩm iPhone 11 64GB hay các biến thể iPhone 11 bộ cảm biến đa nhiệm hoàn toàn siêu việt, nó có khả năng khuếch đại tần suất để tăng tốc độ xử lý hiệu ứng một cách nhanh chóng (con số ước chừng có thể đạt 30%). Ngoài ra, cụm cảm biến camera kép sáng tạo cũng chính là tiêu chuẩn ở iPhone 11 năm nay, nó đồng bộ 12 MP trên cả iPhone 11 Pro Apple hay iPhone 11 Pro Max. Qua đó, đây cũng là điểm nhấn đáng chú ý trên các mẫu iPhone 11 được trình làng năm nay. Kèm với đó, phiên bản hệ điều hành iOS 13 huyền bí cũng là tiêu chuẩn để sở hữu những tác vụ cũng như hoạt động ở một giao diện với mật độ hiển thị khung hình một cách khoa học và dễ dàng thao tác nhất. Thế nên, giá để người tiêu dùng sở hữu một chiếc iPhone 11 mới là rất cao so với các mẫu điện thoại thông minh bình thướng khác. </span> </div> > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-1(2).jpg\" /> <h1>Đánh giá khách quan về mẫu iPhone 11 của 24hStore</h1> <span> 24hStore đã tiến hành đánh giá tổng thể với iPhone 11, iPhone 11 Pro và iPhone 11 99%. Về thiết kế, chúng trông nổi bật như iPhone XR, iPhone XS và iPhone XS Max năm ngoái, từ màn hình điểm Notch đến toàn bộ mọi thứ bên trong hay mặt lưng của sản phẩm. Màu sắc hay thiết kế mọi thứ trông hoàn thiện đến mức cảm nhận tinh tế hơn, và đặc biệt siêu phẩm rất giống so với sản phẩm iPhone XR trước đó. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-cu-15(1).jpg\" /> <span> Điều ấn tượng là sự hợp nhất giữa pin lớn hơn 5% và chipset kết quả hơn 40%, cho thấy Apple đã tăng nhu cầu sử dụng thêm một giờ trải nghiệm thiết bị so với iPhone XR trước đó. Điều này có thể nói rằng, bất kỳ điện thoại iPhone 11 nào đều sẽ kéo dài thời lượng pin hơn một giờ so với iPhone XR hay iPhone XS, iPhone XS Max trước đó. </span>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        },
+        {
+          "id": "1.2",
+          "name": "Điện thoại iPhone 11 64GB Mầu Đỏ",
+          "slug": "Điện-thoại-iPhone-11-64GB ",
+          "price": 4790000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-1-1-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-3-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-2-1-org.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "categoryId": 1,
+          "color": "Đỏ",
+          "content": "<h4> <strong> Apple chính thức trình làng bộ ba siêu phẩm iPhone 11 Series cao cấp nhất với A13 hay iOS 13 mạnh mẽ</strong > </h4> <span> Trong bài viết này hãy cùng tìm hiểu iPhone 11, sản phẩm có hiệu năng mạnh mẽ và toàn diện nhất trong giới công nghệ, cùng với đó là tổ hợp nhiều cải tiến tính năng thông minh mang lại hiệu quả cực cao cho người trải nghiệm siêu phẩm. Hơn thế nữa, khi là khách hàng của 24hStore - Hệ thống ủy quyền chính hãng của Apple (AAR) các bạn hoàn toàn có thể yên tâm về mọi mặt từ chất lượng, ưu đãi đến bảo hành. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-2.jpg\" /> <h1> Apple iPhone 11 64GB - Phiên bản đa sắc nhất của Nhà Táo </h1> > <span> Apple luôn thế! Phiên bản iPhone 11 năm nay được trang bị nhiều tính năng thông minh và mang lại hiệu quả cao cho người trải nghiệm, thực sự mà nói sản phẩm iPhone 11 2019 đúng chất là những siêu phẩm toàn diện nhất ở thời điểm hiện tại. Kèm với đó, không một smartphone nào khác có tính bảo mật an toàn tuyệt đối như iPhone, đặc biệt hơn hết, Apple đã cho kích hoạt tính năng luân chuyển camera tự động cực thông minh trên các biến thể iPhone năm nay,... Và kèm rất rất nhiều các tính năng tiện lợi khác bổ ích cho công việc hay cuộc sống của bạn.</span <br> <span> Apple chính thức trang bị cho sản phẩm iPhone 11 64GB hay các biến thể iPhone 11 bộ cảm biến đa nhiệm hoàn toàn siêu việt, nó có khả năng khuếch đại tần suất để tăng tốc độ xử lý hiệu ứng một cách nhanh chóng (con số ước chừng có thể đạt 30%). Ngoài ra, cụm cảm biến camera kép sáng tạo cũng chính là tiêu chuẩn ở iPhone 11 năm nay, nó đồng bộ 12 MP trên cả iPhone 11 Pro Apple hay iPhone 11 Pro Max. Qua đó, đây cũng là điểm nhấn đáng chú ý trên các mẫu iPhone 11 được trình làng năm nay. Kèm với đó, phiên bản hệ điều hành iOS 13 huyền bí cũng là tiêu chuẩn để sở hữu những tác vụ cũng như hoạt động ở một giao diện với mật độ hiển thị khung hình một cách khoa học và dễ dàng thao tác nhất. Thế nên, giá để người tiêu dùng sở hữu một chiếc iPhone 11 mới là rất cao so với các mẫu điện thoại thông minh bình thướng khác. </span> </div> > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-1(2).jpg\" /> <h1>Đánh giá khách quan về mẫu iPhone 11 của 24hStore</h1> <span> 24hStore đã tiến hành đánh giá tổng thể với iPhone 11, iPhone 11 Pro và iPhone 11 99%. Về thiết kế, chúng trông nổi bật như iPhone XR, iPhone XS và iPhone XS Max năm ngoái, từ màn hình điểm Notch đến toàn bộ mọi thứ bên trong hay mặt lưng của sản phẩm. Màu sắc hay thiết kế mọi thứ trông hoàn thiện đến mức cảm nhận tinh tế hơn, và đặc biệt siêu phẩm rất giống so với sản phẩm iPhone XR trước đó. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-cu-15(1).jpg\" /> <span> Điều ấn tượng là sự hợp nhất giữa pin lớn hơn 5% và chipset kết quả hơn 40%, cho thấy Apple đã tăng nhu cầu sử dụng thêm một giờ trải nghiệm thiết bị so với iPhone XR trước đó. Điều này có thể nói rằng, bất kỳ điện thoại iPhone 11 nào đều sẽ kéo dài thời lượng pin hơn một giờ so với iPhone XR hay iPhone XS, iPhone XS Max trước đó. </span>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Điện thoại iPhone 13 Pro Max 512GB",
+      "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB ",
+      "price": 11790000,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "IOS",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Vàng đồng",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<h4> <strong> Đúng như dự kiến, iPhone 13 series đã làm khuấy đảo giới công nghệ tại sự kiện Apple California Streaming diễn ra 0h ngày 15/09 (giờ Việt Nam). iPhone 13 128GB có điểm gì khác biệt so với thế hệ tiền nhiệm mà có thể tạo nên cơn sốt như thế? Hãy cùng di động 24hStore tìm hiểu ngay sau đây.</strong > </h4> <h4> <strong> Thiết kế với nhiều đột phá</strong></h4> <span> Là chiếc flagship được mong chờ nhất năm 2021, siêu phẩm iPhone 13 sở hữu thiết kế vuông vắn, mang hơi hướng cổ điển. Máy vẫn có khung kim loại kết hợp cùng mặt lưng kính. Khung kim loại có thể là nhôm hoặc thép tuỳ từng phiên bản.</span> <br> <span> Sự thay đổi lớn nhất về mặt thiết kế của iPhone 13 128GB khiến mọi người nhận ra rõ nhất chính là cách sắp xếp vị trí cụm camera sau. Nếu như các phiên bản trước thường đặt dọc, ở dòng này hãng bố trí cho hai camera xếp chéo nhau, tạo ra một nét đặc trưng, mới mẻ hơn, giúp mọi người dễ dàng nhận diện. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_1.jpg\" /> <h1> Màn hình </h1> <span>Không nằm ngoài dự đoán, iPhone 13 128GB chính hãng sử dụng tấm nền OLED chất lượng cao và có kích thước 6.1 inch. Tấm nền tích hợp công nghệ ProMotion giúp thiết bị tiết kiệm pin đến tối đa khi sử dụng, tự động điều chỉnh tốc độ làm mới sao cho thích hợp nhất với ứng dụng đang chạy.</span> <br> <span> Màn hình Super Retina XDR của máy đạt độ sáng 800 nits, tối đa có thể lên tới 1200 nits cùng dải màu rộng P3, tỉ lệ tương phản lớn. Không chỉ vậy, Bên ngoài màn hình được phủ lớp oleophobic, nhờ đó hạn chế được các tình trạng bám bụi bẩn và mồ hôi trong quá trình sử dụng thiết bị.</span> <h1>Camera kép cải tiến</h1> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_5.jpg\" /> <span> Camera trước vẫn nằm trong notch - tai thỏ, có độ phân giải 12MP cùng khẩu độ ƒ / 2.2. Camera selfie này tích hợp công nghệ chụp ảnh chuyên nghiệp như hiệu ứng bokeh, chế độ điện ảnh, Animoji và Memoji,... mang lại những bức hình selfie hoàn hảo. </span>",
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-2-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-3-1.jpg"
+      ],
+      "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 13, trong đó phiên bản iPhone 13 512GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+      "categoryId": 1,
+      "variants": [
+        {
+          "id": "2.1",
+          "name": "Điện thoại iPhone 13 Pro Max 512GB Màu vàng đồng",
+          "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB ",
+          "price": 4200000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-2-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-3-1.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "color": "Vàng đồng",
+          "content": "<h4> <strong> Đúng như dự kiến, iPhone 13 series đã làm khuấy đảo giới công nghệ tại sự kiện Apple California Streaming diễn ra 0h ngày 15/09 (giờ Việt Nam). iPhone 13 128GB có điểm gì khác biệt so với thế hệ tiền nhiệm mà có thể tạo nên cơn sốt như thế? Hãy cùng di động 24hStore tìm hiểu ngay sau đây.</strong > </h4> <h4> <strong> Thiết kế với nhiều đột phá</strong></h4> <span> Là chiếc flagship được mong chờ nhất năm 2021, siêu phẩm iPhone 13 sở hữu thiết kế vuông vắn, mang hơi hướng cổ điển. Máy vẫn có khung kim loại kết hợp cùng mặt lưng kính. Khung kim loại có thể là nhôm hoặc thép tuỳ từng phiên bản.</span> <br> <span> Sự thay đổi lớn nhất về mặt thiết kế của iPhone 13 128GB khiến mọi người nhận ra rõ nhất chính là cách sắp xếp vị trí cụm camera sau. Nếu như các phiên bản trước thường đặt dọc, ở dòng này hãng bố trí cho hai camera xếp chéo nhau, tạo ra một nét đặc trưng, mới mẻ hơn, giúp mọi người dễ dàng nhận diện. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_1.jpg\" /> <h1> Màn hình </h1> <span>Không nằm ngoài dự đoán, iPhone 13 128GB chính hãng sử dụng tấm nền OLED chất lượng cao và có kích thước 6.1 inch. Tấm nền tích hợp công nghệ ProMotion giúp thiết bị tiết kiệm pin đến tối đa khi sử dụng, tự động điều chỉnh tốc độ làm mới sao cho thích hợp nhất với ứng dụng đang chạy.</span> <br> <span> Màn hình Super Retina XDR của máy đạt độ sáng 800 nits, tối đa có thể lên tới 1200 nits cùng dải màu rộng P3, tỉ lệ tương phản lớn. Không chỉ vậy, Bên ngoài màn hình được phủ lớp oleophobic, nhờ đó hạn chế được các tình trạng bám bụi bẩn và mồ hôi trong quá trình sử dụng thiết bị.</span> <h1>Camera kép cải tiến</h1> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_5.jpg\" /> <span> Camera trước vẫn nằm trong notch - tai thỏ, có độ phân giải 12MP cùng khẩu độ ƒ / 2.2. Camera selfie này tích hợp công nghệ chụp ảnh chuyên nghiệp như hiệu ứng bokeh, chế độ điện ảnh, Animoji và Memoji,... mang lại những bức hình selfie hoàn hảo. </span>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        },
+        {
+          "id": "2.2",
+          "name": "Điện thoại iPhone 13 Pro Max 512GB màu xám",
+          "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB ",
+          "price": 33900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-2-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-3-2.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "categoryId": 1,
+          "color": "Xám",
+          "content": "<h4> <strong> Đúng như dự kiến, iPhone 13 series đã làm khuấy đảo giới công nghệ tại sự kiện Apple California Streaming diễn ra 0h ngày 15/09 (giờ Việt Nam). iPhone 13 128GB có điểm gì khác biệt so với thế hệ tiền nhiệm mà có thể tạo nên cơn sốt như thế? Hãy cùng di động 24hStore tìm hiểu ngay sau đây.</strong > </h4> <h4> <strong> Thiết kế với nhiều đột phá</strong></h4> <span> Là chiếc flagship được mong chờ nhất năm 2021, siêu phẩm iPhone 13 sở hữu thiết kế vuông vắn, mang hơi hướng cổ điển. Máy vẫn có khung kim loại kết hợp cùng mặt lưng kính. Khung kim loại có thể là nhôm hoặc thép tuỳ từng phiên bản.</span> <br> <span> Sự thay đổi lớn nhất về mặt thiết kế của iPhone 13 128GB khiến mọi người nhận ra rõ nhất chính là cách sắp xếp vị trí cụm camera sau. Nếu như các phiên bản trước thường đặt dọc, ở dòng này hãng bố trí cho hai camera xếp chéo nhau, tạo ra một nét đặc trưng, mới mẻ hơn, giúp mọi người dễ dàng nhận diện. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_1.jpg\" /> <h1> Màn hình </h1> <span>Không nằm ngoài dự đoán, iPhone 13 128GB chính hãng sử dụng tấm nền OLED chất lượng cao và có kích thước 6.1 inch. Tấm nền tích hợp công nghệ ProMotion giúp thiết bị tiết kiệm pin đến tối đa khi sử dụng, tự động điều chỉnh tốc độ làm mới sao cho thích hợp nhất với ứng dụng đang chạy.</span> <br> <span> Màn hình Super Retina XDR của máy đạt độ sáng 800 nits, tối đa có thể lên tới 1200 nits cùng dải màu rộng P3, tỉ lệ tương phản lớn. Không chỉ vậy, Bên ngoài màn hình được phủ lớp oleophobic, nhờ đó hạn chế được các tình trạng bám bụi bẩn và mồ hôi trong quá trình sử dụng thiết bị.</span> <h1>Camera kép cải tiến</h1> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_5.jpg\" /> <span> Camera trước vẫn nằm trong notch - tai thỏ, có độ phân giải 12MP cùng khẩu độ ƒ / 2.2. Camera selfie này tích hợp công nghệ chụp ảnh chuyên nghiệp như hiệu ứng bokeh, chế độ điện ảnh, Animoji và Memoji,... mang lại những bức hình selfie hoàn hảo. </span>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Điện thoại iPhone 14 Pro Max 128GB",
+      "slug": "Điện-thoại-iPhone-14-Pro-Max -128GB ",
+      "price": 33990000,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "IOS",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Tím",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<h4> <strong> Là sản phẩm nổi bật nhất trong series lần này, vào 0 giờ sáng ngày 08/09/2022 theo giờ Việt Nam, nhà Apple đã chính thức ra mắt các mẫu iPhone 14 mới nhất</strong > </h4> <span> sự tập trung đề đổ dồn vào chiếc iPhone 14 Pro Max 128GB với thiết kế phần cắt viên thuốc đặc sắc hoàn toàn mới thay thế đi phần tai thỏ trước đây đặt chính giữa màn hình và nâng cấp một số tính năng được trang bị cho hai siêu phẩm này. Chắc hẳn các iFans đang rất trông chờ về mặt thiết kế cũng như các thông số kỹ thuật của điện thoại iPhone 14 Pro Max. Vậy chiếc iPhone 14 Pro Max 128GB sẽ có gì khác biệt so với các siêu phẩm iPhone khác. Cùng 24hStore tìm hiểu nhé! </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/2022/10/20/iphone-14-series-25.jpg\" /> <h1> 1. Điện thoại iPhone 14 Pro Max 128GB được cải tiến ấn tượng như thế nào? </h1> <h2>1.1 Thiết kế mới nổi bật của iPhone 14 Pro Max</h2> <a> Apple iPhone 14</a ><span> Pro Max 128GB được thiết kế bằng thép không gỉ và kính mờ với kết cấu đẹp mắt. Kích thước của iPhone 14 Pro Max 128GB sẽ là 6.7 inch với thiết kế màn hình có các góc được bo tròn theo thiết kế cong đẹp mắt và các góc này sẽ được thiết kế nằm trong hình chữ nhật tiêu chuẩn. Không chỉ thế, iPhone 14 Pro Max 128GB còn được cải tiến mặt kính màn hình điện thoại với mặt trước Ceramic Shield cứng hơn bất kỳ loại kính điện thoại thông minh trên thế giới kết hợp với khả năng chống tia nước, chống nước và bụi. Ngoài ra, iPhone 14 Pro Max đã được thử nghiệm trong các điều kiện phòng thí nghiệm được kiểm soát và có xếp hạng IP68 nhằm cho iPhone có thể kháng nước ở độ sâu tối đa 6 mét trong tối đa 30 phút. Điều đặc biệt trong lần ra mắt lần này thì iPhone 14 Pro Max 128GB sẽ có 4 màu sắc tùy chọn là đen, trắng, vàng và tím mới vô cùng nổi bật.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/mau-sac-iphone-14.jpg\" /> <h2>1.2 Màn hình nâng cấp Super Retina XDR kết hợp với công nghệ ProMotion</h2> <span> Màn hình của iPhone 14 Pro Max 128GB được cải tiến với công nghệ màn hình Super Retina XDR kết hợp với ProMotion lên đến 120 HZ giúp màn hình iPhone có thêm tính năng hiển thị Always-On lần đầu tiên trên iPhone nhằm giúp màn hình khóa trên iPhone trở nên hữu dụng hơn với người dùng. Ngoài ra, Apple còn kích hoạt thêm tốc độ làm mới màn hình lên tới 1Hz cùng với công nghệ tiết kiệm điện năng khi sử dụng độ phân giải màn hình cao. Không chỉ thế, Apple còn cải tiến thêm mức độ sáng HDR cao nhất lên đến 2000 nits trên màn hình điện thoại iPhone 14 Pro Max 128GB. Đây có thể nói là độ sáng ngoài trời cao nhất đối với các dòng điện thoại thông minh ở thời điểm hiện tại và sáng gấp đôi dòng iPhone 13 Pro Max thế hệ trước. Điều đặc biệt là Apple đổi mới khu vực notch được tối ưu hơn với tính năng Dynamic Island cho phép những cách mới để tương tác với iPhone, có thiết kế kết hợp ranh giới giữa phần cứng và phần mềm, thích ứng trong thời gian thực để hiển thị các cảnh báo, thông báo và hoạt động quan trọng. Với sự ra đời của Dynamic Island, camera TrueDepth đã được thiết kế lại để chiếm ít diện tích hiển thị hơn. Không cản trở nội dung trên màn hình, Dynamic Island còn có duy trì trạng thái hoạt động để cho phép người dùng truy cập dễ dàng hơn vào các điều khiển chỉ bằng một thao tác chạm và giữ đơn giản. Các tính năng có thể hoạt động trên khu vực notch có thể là bản đồ, âm nhạc hoặc đồng hồ hẹn giờ vẫn hiển thị và tương tác và các ứng dụng của bên thứ ba có trong bản cập nhật iOS 16. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/Content%2024h%20store%20k%C3%ADch%20c%E1%BB%A1%20799x499%20(22).png\" /> <span> Vì iPhone 14 Pro Max có nhiều màu, dung lượng máy cũng nhiều loại để người dùng lựa chọn, qua đó bảng giá của dòng điện thoại này cũng khá đa dạng. Tùy vào sự lựa chọn khi mua hàng mà mức giá của iPhone 14 Pro Max sẽ có sự thay đổ </span>",
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-1-1.jpg"
+      ],
+      "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 14, trong đó phiên bản iPhone 14 512GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+      "categoryId": 1,
+      "variants": [
+        {
+          "id": "3.1",
+          "name": "Điện thoại iPhone 14 Pro Max 128GB Màu Tím",
+          "slug": "Điện-thoại-iPhone-14-Pro-Max -128GB ",
+          "price": 33990000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-4.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "color": "Tím",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<h4> <strong> Là sản phẩm nổi bật nhất trong series lần này, vào 0 giờ sáng ngày 08/09/2022 theo giờ Việt Nam, nhà Apple đã chính thức ra mắt các mẫu iPhone 14 mới nhất</strong > </h4> <span> sự tập trung đề đổ dồn vào chiếc iPhone 14 Pro Max 128GB với thiết kế phần cắt viên thuốc đặc sắc hoàn toàn mới thay thế đi phần tai thỏ trước đây đặt chính giữa màn hình và nâng cấp một số tính năng được trang bị cho hai siêu phẩm này. Chắc hẳn các iFans đang rất trông chờ về mặt thiết kế cũng như các thông số kỹ thuật của điện thoại iPhone 14 Pro Max. Vậy chiếc iPhone 14 Pro Max 128GB sẽ có gì khác biệt so với các siêu phẩm iPhone khác. Cùng 24hStore tìm hiểu nhé! </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/2022/10/20/iphone-14-series-25.jpg\" /> <h1> 1. Điện thoại iPhone 14 Pro Max 128GB được cải tiến ấn tượng như thế nào? </h1> <h2>1.1 Thiết kế mới nổi bật của iPhone 14 Pro Max</h2> <a> Apple iPhone 14</a ><span> Pro Max 128GB được thiết kế bằng thép không gỉ và kính mờ với kết cấu đẹp mắt. Kích thước của iPhone 14 Pro Max 128GB sẽ là 6.7 inch với thiết kế màn hình có các góc được bo tròn theo thiết kế cong đẹp mắt và các góc này sẽ được thiết kế nằm trong hình chữ nhật tiêu chuẩn. Không chỉ thế, iPhone 14 Pro Max 128GB còn được cải tiến mặt kính màn hình điện thoại với mặt trước Ceramic Shield cứng hơn bất kỳ loại kính điện thoại thông minh trên thế giới kết hợp với khả năng chống tia nước, chống nước và bụi. Ngoài ra, iPhone 14 Pro Max đã được thử nghiệm trong các điều kiện phòng thí nghiệm được kiểm soát và có xếp hạng IP68 nhằm cho iPhone có thể kháng nước ở độ sâu tối đa 6 mét trong tối đa 30 phút. Điều đặc biệt trong lần ra mắt lần này thì iPhone 14 Pro Max 128GB sẽ có 4 màu sắc tùy chọn là đen, trắng, vàng và tím mới vô cùng nổi bật.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/mau-sac-iphone-14.jpg\" /> <h2>1.2 Màn hình nâng cấp Super Retina XDR kết hợp với công nghệ ProMotion</h2> <span> Màn hình của iPhone 14 Pro Max 128GB được cải tiến với công nghệ màn hình Super Retina XDR kết hợp với ProMotion lên đến 120 HZ giúp màn hình iPhone có thêm tính năng hiển thị Always-On lần đầu tiên trên iPhone nhằm giúp màn hình khóa trên iPhone trở nên hữu dụng hơn với người dùng. Ngoài ra, Apple còn kích hoạt thêm tốc độ làm mới màn hình lên tới 1Hz cùng với công nghệ tiết kiệm điện năng khi sử dụng độ phân giải màn hình cao. Không chỉ thế, Apple còn cải tiến thêm mức độ sáng HDR cao nhất lên đến 2000 nits trên màn hình điện thoại iPhone 14 Pro Max 128GB. Đây có thể nói là độ sáng ngoài trời cao nhất đối với các dòng điện thoại thông minh ở thời điểm hiện tại và sáng gấp đôi dòng iPhone 13 Pro Max thế hệ trước. Điều đặc biệt là Apple đổi mới khu vực notch được tối ưu hơn với tính năng Dynamic Island cho phép những cách mới để tương tác với iPhone, có thiết kế kết hợp ranh giới giữa phần cứng và phần mềm, thích ứng trong thời gian thực để hiển thị các cảnh báo, thông báo và hoạt động quan trọng. Với sự ra đời của Dynamic Island, camera TrueDepth đã được thiết kế lại để chiếm ít diện tích hiển thị hơn. Không cản trở nội dung trên màn hình, Dynamic Island còn có duy trì trạng thái hoạt động để cho phép người dùng truy cập dễ dàng hơn vào các điều khiển chỉ bằng một thao tác chạm và giữ đơn giản. Các tính năng có thể hoạt động trên khu vực notch có thể là bản đồ, âm nhạc hoặc đồng hồ hẹn giờ vẫn hiển thị và tương tác và các ứng dụng của bên thứ ba có trong bản cập nhật iOS 16. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/Content%2024h%20store%20k%C3%ADch%20c%E1%BB%A1%20799x499%20(22).png\" /> <span> Vì iPhone 14 Pro Max có nhiều màu, dung lượng máy cũng nhiều loại để người dùng lựa chọn, qua đó bảng giá của dòng điện thoại này cũng khá đa dạng. Tùy vào sự lựa chọn khi mua hàng mà mức giá của iPhone 14 Pro Max sẽ có sự thay đổ </span>"
+        },
+        {
+          "id": "3.2",
+          "name": "Điện thoại iPhone 14 Pro Max 128GB Màu Đen",
+          "slug": "Điện-thoại-iPhone-14-Pro-Max -128GB ",
+          "price": 43900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-2-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-3-1-org.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "categoryId": 1,
+          "color": "Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<h4> <strong> Là sản phẩm nổi bật nhất trong series lần này, vào 0 giờ sáng ngày 08/09/2022 theo giờ Việt Nam, nhà Apple đã chính thức ra mắt các mẫu iPhone 14 mới nhất</strong > </h4> <span> sự tập trung đề đổ dồn vào chiếc iPhone 14 Pro Max 128GB với thiết kế phần cắt viên thuốc đặc sắc hoàn toàn mới thay thế đi phần tai thỏ trước đây đặt chính giữa màn hình và nâng cấp một số tính năng được trang bị cho hai siêu phẩm này. Chắc hẳn các iFans đang rất trông chờ về mặt thiết kế cũng như các thông số kỹ thuật của điện thoại iPhone 14 Pro Max. Vậy chiếc iPhone 14 Pro Max 128GB sẽ có gì khác biệt so với các siêu phẩm iPhone khác. Cùng 24hStore tìm hiểu nhé! </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/2022/10/20/iphone-14-series-25.jpg\" /> <h1> 1. Điện thoại iPhone 14 Pro Max 128GB được cải tiến ấn tượng như thế nào? </h1> <h2>1.1 Thiết kế mới nổi bật của iPhone 14 Pro Max</h2> <a> Apple iPhone 14</a ><span> Pro Max 128GB được thiết kế bằng thép không gỉ và kính mờ với kết cấu đẹp mắt. Kích thước của iPhone 14 Pro Max 128GB sẽ là 6.7 inch với thiết kế màn hình có các góc được bo tròn theo thiết kế cong đẹp mắt và các góc này sẽ được thiết kế nằm trong hình chữ nhật tiêu chuẩn. Không chỉ thế, iPhone 14 Pro Max 128GB còn được cải tiến mặt kính màn hình điện thoại với mặt trước Ceramic Shield cứng hơn bất kỳ loại kính điện thoại thông minh trên thế giới kết hợp với khả năng chống tia nước, chống nước và bụi. Ngoài ra, iPhone 14 Pro Max đã được thử nghiệm trong các điều kiện phòng thí nghiệm được kiểm soát và có xếp hạng IP68 nhằm cho iPhone có thể kháng nước ở độ sâu tối đa 6 mét trong tối đa 30 phút. Điều đặc biệt trong lần ra mắt lần này thì iPhone 14 Pro Max 128GB sẽ có 4 màu sắc tùy chọn là đen, trắng, vàng và tím mới vô cùng nổi bật.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/mau-sac-iphone-14.jpg\" /> <h2>1.2 Màn hình nâng cấp Super Retina XDR kết hợp với công nghệ ProMotion</h2> <span> Màn hình của iPhone 14 Pro Max 128GB được cải tiến với công nghệ màn hình Super Retina XDR kết hợp với ProMotion lên đến 120 HZ giúp màn hình iPhone có thêm tính năng hiển thị Always-On lần đầu tiên trên iPhone nhằm giúp màn hình khóa trên iPhone trở nên hữu dụng hơn với người dùng. Ngoài ra, Apple còn kích hoạt thêm tốc độ làm mới màn hình lên tới 1Hz cùng với công nghệ tiết kiệm điện năng khi sử dụng độ phân giải màn hình cao. Không chỉ thế, Apple còn cải tiến thêm mức độ sáng HDR cao nhất lên đến 2000 nits trên màn hình điện thoại iPhone 14 Pro Max 128GB. Đây có thể nói là độ sáng ngoài trời cao nhất đối với các dòng điện thoại thông minh ở thời điểm hiện tại và sáng gấp đôi dòng iPhone 13 Pro Max thế hệ trước. Điều đặc biệt là Apple đổi mới khu vực notch được tối ưu hơn với tính năng Dynamic Island cho phép những cách mới để tương tác với iPhone, có thiết kế kết hợp ranh giới giữa phần cứng và phần mềm, thích ứng trong thời gian thực để hiển thị các cảnh báo, thông báo và hoạt động quan trọng. Với sự ra đời của Dynamic Island, camera TrueDepth đã được thiết kế lại để chiếm ít diện tích hiển thị hơn. Không cản trở nội dung trên màn hình, Dynamic Island còn có duy trì trạng thái hoạt động để cho phép người dùng truy cập dễ dàng hơn vào các điều khiển chỉ bằng một thao tác chạm và giữ đơn giản. Các tính năng có thể hoạt động trên khu vực notch có thể là bản đồ, âm nhạc hoặc đồng hồ hẹn giờ vẫn hiển thị và tương tác và các ứng dụng của bên thứ ba có trong bản cập nhật iOS 16. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/Content%2024h%20store%20k%C3%ADch%20c%E1%BB%A1%20799x499%20(22).png\" /> <span> Vì iPhone 14 Pro Max có nhiều màu, dung lượng máy cũng nhiều loại để người dùng lựa chọn, qua đó bảng giá của dòng điện thoại này cũng khá đa dạng. Tùy vào sự lựa chọn khi mua hàng mà mức giá của iPhone 14 Pro Max sẽ có sự thay đổ </span>"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Điện thoại Vivo V25E",
+      "slug": "Điện-thoại-Vivo-V25E ",
+      "price": 84900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-2-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-10.jpg"
+      ],
+      "description": "Cùng với Vivo V25, nhà sản xuất Trung Quốc cũng đã tung ra thị trường mẫu điện thoại Vivo V25E mới sở hữu thiết kế vô cùng hiện đại và độc đáo với mặt lưng kính có thể thay đổi màu sắc, camera 64 MP hỗ trợ OIS và sạc nhanh 44 W, đáp ứng đầy đủ nhu cầu của người dùng.",
+      "categoryId": 4,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "color": "Vàng đồng",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<span >Vivo V25E 4G là mẫu điện thoại được săn đón nhiều nhất trong phân khúc smartphone giá tầm trung vừa được cho ra mắt vào đầu tháng 10. Cụ thể dòng máy mới này có tính năng gì nổi bật khiến người dùng muốn sở hữu, cùng tìm hiểu nhé.</span > <h4> <strong> Mua điện thoại Vivo V25E 4G chính hãng tại Siêu thị Điện Máy – Nội Thất Chợ Lớn </strong> </h4> <h4><strong> Thiết kế tối giản, phong cách hiện đại</strong></h4> <span> Sức hút khủng của Vivo V25E 4G đến từ rất nhiều yếu tố, một trong số đó là nhờ thiết kế siêu mỏng, mặt lưng làm bằng kính quang sắc 2.5D đổi màu ấn tượng và có khả năng chống bám vân tay. Máy kiểu dáng vuông cứng cáp, cạnh viền phẳng tương đối đẹp và lôi cuốn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/dien-thoai-vivo-v25e-mau-dep-ruc-ro%20(1).jpg\" /> <span> Kế đến là phần thân máy được thiết kế khá mỏng, nhẹ với kích thước chỉ rơi vào khoảng 7.79mm cùng cân nặng 186g. Máy được tạo hình công thái học cho người dùng cảm giác cầm nắm vừa tay và chắc chắn đáng kể.</span > <h4>Mặt lưng đổi màu đẹp mãn nhãn</h4> <span> Vivo V25E 4G có điểm nhấn sang trọng với mặt lưng bằng kính được hoàn thiện rất tinh xảo. Đặc biệt hơn máy có khả năng biến chuyển màu sắc khi tiếp xúc cùng ánh sáng mạnh. Mặt lưng chiếc điện thoại nhanh chuyển từ vàng sang cam khi ở ngoài trời. Quan sát cho thấy sự đổi màu này rất đẹp làm mãn nhãn thị giác người dùng.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/mat-lung-dien-thoai-doi-mau-dep-man-nhan-thi-giac.jpg\" /> <h4>Màu sắc cực kỳ hút mắt</h4> <span> Điện thoại Vivo V25E 4G có hai màu siêu đẹp mà các tín đồ của smartphone không thể rời mắt khi chạm mắt lần đầu. Phiên bản màu vàng rạng đông nổi bật gợi liên tưởng đến ánh dương ngày mới hòa cùng sắc hoàng hôn rực rỡ. Smartphone của Vivo còn phiên bản màu kim cương đen toát lên vẻ đẹp của sự huyền bí rất hợp cho những người thích phong cách cao cấp, sang trọng. </span>",
+      "variants": [
+        {
+          "id": "4.1",
+          "name": "Điện thoại Vivo V25E Màu Vàng đồng",
+          "slug": "Điện-thoại-Vivo-V25E ",
+          "price": 84900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-2-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-10.jpg"
+          ],
+          "description": "Cùng với Vivo V25, nhà sản xuất Trung Quốc cũng đã tung ra thị trường mẫu điện thoại Vivo V25E mới sở hữu thiết kế vô cùng hiện đại và độc đáo với mặt lưng kính có thể thay đổi màu sắc, camera 64 MP hỗ trợ OIS và sạc nhanh 44 W, đáp ứng đầy đủ nhu cầu của người dùng.",
+          "categoryId": 4,
+          "color": "Vàng đồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Vivo V25E 4G là mẫu điện thoại được săn đón nhiều nhất trong phân khúc smartphone giá tầm trung vừa được cho ra mắt vào đầu tháng 10. Cụ thể dòng máy mới này có tính năng gì nổi bật khiến người dùng muốn sở hữu, cùng tìm hiểu nhé.</span > <h4> <strong> Mua điện thoại Vivo V25E 4G chính hãng tại Siêu thị Điện Máy – Nội Thất Chợ Lớn </strong> </h4> <h4><strong> Thiết kế tối giản, phong cách hiện đại</strong></h4> <span> Sức hút khủng của Vivo V25E 4G đến từ rất nhiều yếu tố, một trong số đó là nhờ thiết kế siêu mỏng, mặt lưng làm bằng kính quang sắc 2.5D đổi màu ấn tượng và có khả năng chống bám vân tay. Máy kiểu dáng vuông cứng cáp, cạnh viền phẳng tương đối đẹp và lôi cuốn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/dien-thoai-vivo-v25e-mau-dep-ruc-ro%20(1).jpg\" /> <span> Kế đến là phần thân máy được thiết kế khá mỏng, nhẹ với kích thước chỉ rơi vào khoảng 7.79mm cùng cân nặng 186g. Máy được tạo hình công thái học cho người dùng cảm giác cầm nắm vừa tay và chắc chắn đáng kể.</span > <h4>Mặt lưng đổi màu đẹp mãn nhãn</h4> <span> Vivo V25E 4G có điểm nhấn sang trọng với mặt lưng bằng kính được hoàn thiện rất tinh xảo. Đặc biệt hơn máy có khả năng biến chuyển màu sắc khi tiếp xúc cùng ánh sáng mạnh. Mặt lưng chiếc điện thoại nhanh chuyển từ vàng sang cam khi ở ngoài trời. Quan sát cho thấy sự đổi màu này rất đẹp làm mãn nhãn thị giác người dùng.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/mat-lung-dien-thoai-doi-mau-dep-man-nhan-thi-giac.jpg\" /> <h4>Màu sắc cực kỳ hút mắt</h4> <span> Điện thoại Vivo V25E 4G có hai màu siêu đẹp mà các tín đồ của smartphone không thể rời mắt khi chạm mắt lần đầu. Phiên bản màu vàng rạng đông nổi bật gợi liên tưởng đến ánh dương ngày mới hòa cùng sắc hoàng hôn rực rỡ. Smartphone của Vivo còn phiên bản màu kim cương đen toát lên vẻ đẹp của sự huyền bí rất hợp cho những người thích phong cách cao cấp, sang trọng. </span>"
+        },
+        {
+          "id": "4.2",
+          "name": "Điện thoại Vivo V25E Màu Đen",
+          "slug": "Điện-thoại-Vivo-V25E ",
+          "price": 81900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-1-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-5-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-6-2.jpg"
+          ],
+          "description": "Cùng với Vivo V25, nhà sản xuất Trung Quốc cũng đã tung ra thị trường mẫu điện thoại Vivo V25E mới sở hữu thiết kế vô cùng hiện đại và độc đáo với mặt lưng kính có thể thay đổi màu sắc, camera 64 MP hỗ trợ OIS và sạc nhanh 44 W, đáp ứng đầy đủ nhu cầu của người dùng.",
+          "categoryId": 4,
+          "color": "Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Vivo V25E 4G là mẫu điện thoại được săn đón nhiều nhất trong phân khúc smartphone giá tầm trung vừa được cho ra mắt vào đầu tháng 10. Cụ thể dòng máy mới này có tính năng gì nổi bật khiến người dùng muốn sở hữu, cùng tìm hiểu nhé.</span > <h4> <strong> Mua điện thoại Vivo V25E 4G chính hãng tại Siêu thị Điện Máy – Nội Thất Chợ Lớn </strong> </h4> <h4><strong> Thiết kế tối giản, phong cách hiện đại</strong></h4> <span> Sức hút khủng của Vivo V25E 4G đến từ rất nhiều yếu tố, một trong số đó là nhờ thiết kế siêu mỏng, mặt lưng làm bằng kính quang sắc 2.5D đổi màu ấn tượng và có khả năng chống bám vân tay. Máy kiểu dáng vuông cứng cáp, cạnh viền phẳng tương đối đẹp và lôi cuốn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/dien-thoai-vivo-v25e-mau-dep-ruc-ro%20(1).jpg\" /> <span> Kế đến là phần thân máy được thiết kế khá mỏng, nhẹ với kích thước chỉ rơi vào khoảng 7.79mm cùng cân nặng 186g. Máy được tạo hình công thái học cho người dùng cảm giác cầm nắm vừa tay và chắc chắn đáng kể.</span > <h4>Mặt lưng đổi màu đẹp mãn nhãn</h4> <span> Vivo V25E 4G có điểm nhấn sang trọng với mặt lưng bằng kính được hoàn thiện rất tinh xảo. Đặc biệt hơn máy có khả năng biến chuyển màu sắc khi tiếp xúc cùng ánh sáng mạnh. Mặt lưng chiếc điện thoại nhanh chuyển từ vàng sang cam khi ở ngoài trời. Quan sát cho thấy sự đổi màu này rất đẹp làm mãn nhãn thị giác người dùng.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/mat-lung-dien-thoai-doi-mau-dep-man-nhan-thi-giac.jpg\" /> <h4>Màu sắc cực kỳ hút mắt</h4> <span> Điện thoại Vivo V25E 4G có hai màu siêu đẹp mà các tín đồ của smartphone không thể rời mắt khi chạm mắt lần đầu. Phiên bản màu vàng rạng đông nổi bật gợi liên tưởng đến ánh dương ngày mới hòa cùng sắc hoàng hôn rực rỡ. Smartphone của Vivo còn phiên bản màu kim cương đen toát lên vẻ đẹp của sự huyền bí rất hợp cho những người thích phong cách cao cấp, sang trọng. </span>"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Điện thoại Vivo Y15s",
+      "slug": "Điện-thoại-Vivo-Y15s ",
+      "price": 31900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-5.jpg"
+      ],
+      "description": "Vivo Y15s sở hữu nhiều điểm tương đồng với những người anh em Vivo Y15 của mình khi toàn bộ thân máy làm bằng Polymer cao cấp, thiết kế cong cạnh 3D và kiểu dáng mỏng nhẹ chỉ 8.28 mm đem lại cảm giác cầm máy trong tay khá thoải mái.",
+      "categoryId": 4,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Xanh Đen",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<span >Vivo Y15s 32GB được đánh giá là khá tương đồng so với người anh em Y15 đã được ra mắt trước đó về phần ngoại hình bên ngoài. Tuy nhiên thì đây vẫn là 2 dòng sản phẩm nhắm đến những đối tượng người dụng riêng biệt bởi cấu hình phần cứng và mức giá bán. .</span > <h4> <strong> Vivo Y15s (3GB + 32GB) - Trải nghiệm không giới hạn </strong> </h4> <h4><strong> RAM 3GB + ROM 32GB</strong></h4> <span> Với dung lượng RAM 3GB + ROM 32GB, Y15s mang đến dung lượng lưu trữ thoải mái, cho phép bạn lưu giữ tất cả hình ảnh và video yêu thích. Hãy sống trọn vẹn từng phút giây.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-1.JPG\" /> <h4>Màn hình tràn Halo 6.51 inch bảo vệ mắt.</h4> <span> Y15s trang bị Màn Hình Halo 6.51 inch với độ phân giải HD+ (1600x720), mang đến góc nhìn rộng, dù là xem phim hay chơi game bạn luôn được đắm chìm trong những hình ảnh chi tiết.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-2.JPG\" /> <span>Ngoài ra, độ sáng của màn hình sẽ tự động điều chỉnh theo điều kiện môi trường xung quanh và chế độ Bảo Vệ Mắt giúp giảm ánh sáng xanh, bảo vệ thị lực của bạn và mang lại trải nghiệm thoải mái nhất.</span> <h4>Mở khóa vân tay ở cạnh bên</h4> <span> Y15s thiết kế Mở Khóa Vân Tay Cạnh Bên được tích hợp hoàn hảo với nút nguồn, có thể mở khóa chỉ trong một bước sau khi khởi động. Tốc độ mở khóa khi màn hình sáng có thể đạt 0.232s, mang đến cho bạn trải nghiệm người dùng tốt hơn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-3.JPG\" /> <h4>Nhận Diện Khuôn Mặt</h4> <span> Y15s trang bị công nghệ Nhận Diện Khuôn Mặt, bạn chỉ cần nhấc điện thoại đối diện với khuôn mặt là có thể mở khóa dễ dàng. Kết hợp với Vân Tay Cạnh Bên mang đến trải nghiệm mở khóa nhanh chóng và an toàn. </span>",
+      "variants": [
+        {
+          "id": "5.1",
+          "name": "Điện thoại Vivo Y15s Xanh Đen",
+          "slug": "Điện-thoại-Vivo-Y15s ",
+          "price": 31900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-5.jpg"
+          ],
+          "description": "Vivo Y15s sở hữu nhiều điểm tương đồng với những người anh em Vivo Y15 của mình khi toàn bộ thân máy làm bằng Polymer cao cấp, thiết kế cong cạnh 3D và kiểu dáng mỏng nhẹ chỉ 8.28 mm đem lại cảm giác cầm máy trong tay khá thoải mái.",
+          "categoryId": 4,
+          "color": "Xanh Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Vivo Y15s 32GB được đánh giá là khá tương đồng so với người anh em Y15 đã được ra mắt trước đó về phần ngoại hình bên ngoài. Tuy nhiên thì đây vẫn là 2 dòng sản phẩm nhắm đến những đối tượng người dụng riêng biệt bởi cấu hình phần cứng và mức giá bán. .</span > <h4> <strong> Vivo Y15s (3GB + 32GB) - Trải nghiệm không giới hạn </strong> </h4> <h4><strong> RAM 3GB + ROM 32GB</strong></h4> <span> Với dung lượng RAM 3GB + ROM 32GB, Y15s mang đến dung lượng lưu trữ thoải mái, cho phép bạn lưu giữ tất cả hình ảnh và video yêu thích. Hãy sống trọn vẹn từng phút giây.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-1.JPG\" /> <h4>Màn hình tràn Halo 6.51 inch bảo vệ mắt.</h4> <span> Y15s trang bị Màn Hình Halo 6.51 inch với độ phân giải HD+ (1600x720), mang đến góc nhìn rộng, dù là xem phim hay chơi game bạn luôn được đắm chìm trong những hình ảnh chi tiết.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-2.JPG\" /> <span>Ngoài ra, độ sáng của màn hình sẽ tự động điều chỉnh theo điều kiện môi trường xung quanh và chế độ Bảo Vệ Mắt giúp giảm ánh sáng xanh, bảo vệ thị lực của bạn và mang lại trải nghiệm thoải mái nhất.</span> <h4>Mở khóa vân tay ở cạnh bên</h4> <span> Y15s thiết kế Mở Khóa Vân Tay Cạnh Bên được tích hợp hoàn hảo với nút nguồn, có thể mở khóa chỉ trong một bước sau khi khởi động. Tốc độ mở khóa khi màn hình sáng có thể đạt 0.232s, mang đến cho bạn trải nghiệm người dùng tốt hơn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-3.JPG\" /> <h4>Nhận Diện Khuôn Mặt</h4> <span> Y15s trang bị công nghệ Nhận Diện Khuôn Mặt, bạn chỉ cần nhấc điện thoại đối diện với khuôn mặt là có thể mở khóa dễ dàng. Kết hợp với Vân Tay Cạnh Bên mang đến trải nghiệm mở khóa nhanh chóng và an toàn. </span>"
+        },
+        {
+          "id": "5.2",
+          "name": "Điện thoại Vivo V25E Trắng Xanh",
+          "slug": "Điện-thoại-Vivo-Y15s ",
+          "price": 32900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-tx-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-tx-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-tx-5.jpg"
+          ],
+          "description": "Vivo Y15s sở hữu nhiều điểm tương đồng với những người anh em Vivo Y15 của mình khi toàn bộ thân máy làm bằng Polymer cao cấp, thiết kế cong cạnh 3D và kiểu dáng mỏng nhẹ chỉ 8.28 mm đem lại cảm giác cầm máy trong tay khá thoải mái.",
+          "categoryId": 4,
+          "color": "Trắng xanh",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Vivo Y15s 32GB được đánh giá là khá tương đồng so với người anh em Y15 đã được ra mắt trước đó về phần ngoại hình bên ngoài. Tuy nhiên thì đây vẫn là 2 dòng sản phẩm nhắm đến những đối tượng người dụng riêng biệt bởi cấu hình phần cứng và mức giá bán. .</span > <h4> <strong> Vivo Y15s (3GB + 32GB) - Trải nghiệm không giới hạn </strong> </h4> <h4><strong> RAM 3GB + ROM 32GB</strong></h4> <span> Với dung lượng RAM 3GB + ROM 32GB, Y15s mang đến dung lượng lưu trữ thoải mái, cho phép bạn lưu giữ tất cả hình ảnh và video yêu thích. Hãy sống trọn vẹn từng phút giây.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-1.JPG\" /> <h4>Màn hình tràn Halo 6.51 inch bảo vệ mắt.</h4> <span> Y15s trang bị Màn Hình Halo 6.51 inch với độ phân giải HD+ (1600x720), mang đến góc nhìn rộng, dù là xem phim hay chơi game bạn luôn được đắm chìm trong những hình ảnh chi tiết.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-2.JPG\" /> <span>Ngoài ra, độ sáng của màn hình sẽ tự động điều chỉnh theo điều kiện môi trường xung quanh và chế độ Bảo Vệ Mắt giúp giảm ánh sáng xanh, bảo vệ thị lực của bạn và mang lại trải nghiệm thoải mái nhất.</span> <h4>Mở khóa vân tay ở cạnh bên</h4> <span> Y15s thiết kế Mở Khóa Vân Tay Cạnh Bên được tích hợp hoàn hảo với nút nguồn, có thể mở khóa chỉ trong một bước sau khi khởi động. Tốc độ mở khóa khi màn hình sáng có thể đạt 0.232s, mang đến cho bạn trải nghiệm người dùng tốt hơn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-3.JPG\" /> <h4>Nhận Diện Khuôn Mặt</h4> <span> Y15s trang bị công nghệ Nhận Diện Khuôn Mặt, bạn chỉ cần nhấc điện thoại đối diện với khuôn mặt là có thể mở khóa dễ dàng. Kết hợp với Vân Tay Cạnh Bên mang đến trải nghiệm mở khóa nhanh chóng và an toàn. </span>"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Điện thoại Vivo V23e ",
+      "slug": "Điện-thoại-Vivo-V23e  ",
+      "price": 74900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-5.jpg"
+      ],
+      "description": "Vivo V23e vẫn giữ đặc điểm nổi bật của Vivo V Series với thiết kế mỏng 7.36 mm ấn tượng (ở phiên bản màu đen). Viền màn hình 2 cạnh bên có độ mỏng ở mức vừa phải, tuy nhiên thì phần cạnh dưới thì có dày hơn một chút.",
+      "categoryId": 4,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Xanh hồng",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<span >Với Vivo V23e 128GB, mọi khuôn hình selfie của bạn sẽ đẹp lung linh nhờ sự trợ giúp của camera selfie 50MP kết hợp cùng công nghệ Eye Autofocus. Ngoài ra, vivo đã thành công trong việc đưa hàng loạt tính năng đỉnh cao của hãng vào bộ khung vỏ mỏng nhẹ, thời trang, đầy phong cách.</span > <h4> <strong> Vivo V23e 8GB 128GB - Tinh tế, mạnh mẽ, nâng tầm trải nghiệm </strong> </h4> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-1.jpg\" /> <h4>Mỏng nhẹ, tinh tế, đơn giản và thoải mái</h4> <span> vivo V23e khoác lên mình thân máy siêu mỏng với độ dày chỉ 7.36mm. Sản phẩm được thiết kế theo phong cách tối giản nhưng không kém phần tinh tế. Thương hiệu điện thoại Vivo đã cho thấy sự thấu hiểu người dùng khi tối ưu kích cỡ thân máy chỉ còn 172 gram, đồng thời phủ một lớp chất liệu siêu mịn nhằm đem đến bề mặt nhám cho các cạnh bao quanh, không chỉ giúp cho trải nghiệm cầm nắm thoải mái hơn, mà còn tối ưu tính thẩm mỹ và gia tăng độ hoàn thiện tổng thể. .</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Với sự lựa chọn các gam màu thông minh và khéo léo ứng dụng hiệu ứng chuyển sắc theo góc nhìn, vivo V23e thể hiện vẻ đẹp mê hoặc và đầy cuốn hút. Mặt lưng sản phẩm được chế tác từ chất liệu rất mịn, chống bám vân tay để người dùng thỏa sức sử dụng trong nhiều giờ liên tục mà không gây bất cứ cảm giác khó chịu nào. Hai phiên bản Giai Điệu Bình Minh và Vũ Điệu Ánh Trăng của V23e chắc chắn sẽ thu hút bạn ngay từ cái nhìn đầu tiên.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Hình ảnh mãn nhãn mà màn hình 20:9 đem lại</h4> <span> Không gian hiển thị hình ảnh rộng 6.44 inch của Vivo V23e được xây dựng theo tỉ lệ khung hình 20:9 và đạt độ phân giải 2.400 x 1.080. Tấm nền AMOLED với thế mạnh trong việc thể hiện sắc đen sâu, tiết kiệm điện sẽ đem đến cho bạn những trải nghiệm trọn vẹn và mãn nhãn nhất. Mọi thước phim, hình ảnh, và thông tin hiển thị trên màn hình vivo V23e đều có độ chi tiết cao, cho thấy sự sắc sảo trong các gam màu. </span>",
+      "variants": [
+        {
+          "id": "6.1",
+          "name": "Điện thoại Vivo V23e Xanh hồng",
+          "slug": "Điện-thoại-Vivo-V23e  ",
+          "price": 74900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-5.jpg"
+          ],
+          "description": "Vivo V23e vẫn giữ đặc điểm nổi bật của Vivo V Series với thiết kế mỏng 7.36 mm ấn tượng (ở phiên bản màu đen). Viền màn hình 2 cạnh bên có độ mỏng ở mức vừa phải, tuy nhiên thì phần cạnh dưới thì có dày hơn một chút.",
+          "categoryId": 4,
+          "color": "Xanh hồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Với Vivo V23e 128GB, mọi khuôn hình selfie của bạn sẽ đẹp lung linh nhờ sự trợ giúp của camera selfie 50MP kết hợp cùng công nghệ Eye Autofocus. Ngoài ra, vivo đã thành công trong việc đưa hàng loạt tính năng đỉnh cao của hãng vào bộ khung vỏ mỏng nhẹ, thời trang, đầy phong cách.</span > <h4> <strong> Vivo V23e 8GB 128GB - Tinh tế, mạnh mẽ, nâng tầm trải nghiệm </strong> </h4> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-1.jpg\" /> <h4>Mỏng nhẹ, tinh tế, đơn giản và thoải mái</h4> <span> vivo V23e khoác lên mình thân máy siêu mỏng với độ dày chỉ 7.36mm. Sản phẩm được thiết kế theo phong cách tối giản nhưng không kém phần tinh tế. Thương hiệu điện thoại Vivo đã cho thấy sự thấu hiểu người dùng khi tối ưu kích cỡ thân máy chỉ còn 172 gram, đồng thời phủ một lớp chất liệu siêu mịn nhằm đem đến bề mặt nhám cho các cạnh bao quanh, không chỉ giúp cho trải nghiệm cầm nắm thoải mái hơn, mà còn tối ưu tính thẩm mỹ và gia tăng độ hoàn thiện tổng thể. .</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Với sự lựa chọn các gam màu thông minh và khéo léo ứng dụng hiệu ứng chuyển sắc theo góc nhìn, vivo V23e thể hiện vẻ đẹp mê hoặc và đầy cuốn hút. Mặt lưng sản phẩm được chế tác từ chất liệu rất mịn, chống bám vân tay để người dùng thỏa sức sử dụng trong nhiều giờ liên tục mà không gây bất cứ cảm giác khó chịu nào. Hai phiên bản Giai Điệu Bình Minh và Vũ Điệu Ánh Trăng của V23e chắc chắn sẽ thu hút bạn ngay từ cái nhìn đầu tiên.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Hình ảnh mãn nhãn mà màn hình 20:9 đem lại</h4> <span> Không gian hiển thị hình ảnh rộng 6.44 inch của Vivo V23e được xây dựng theo tỉ lệ khung hình 20:9 và đạt độ phân giải 2.400 x 1.080. Tấm nền AMOLED với thế mạnh trong việc thể hiện sắc đen sâu, tiết kiệm điện sẽ đem đến cho bạn những trải nghiệm trọn vẹn và mãn nhãn nhất. Mọi thước phim, hình ảnh, và thông tin hiển thị trên màn hình vivo V23e đều có độ chi tiết cao, cho thấy sự sắc sảo trong các gam màu. </span>"
+        },
+        {
+          "id": "6.2",
+          "name": "Điện thoại Vivo V23e Xanh hồng Đen",
+          "slug": "Điện-thoại-Vivo-V23e  ",
+          "price": 32900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-den-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-den-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-den-5.jpg"
+          ],
+          "description": "Vivo V23e vẫn giữ đặc điểm nổi bật của Vivo V Series với thiết kế mỏng 7.36 mm ấn tượng (ở phiên bản màu đen). Viền màn hình 2 cạnh bên có độ mỏng ở mức vừa phải, tuy nhiên thì phần cạnh dưới thì có dày hơn một chút.",
+          "categoryId": 4,
+          "color": "Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Với Vivo V23e 128GB, mọi khuôn hình selfie của bạn sẽ đẹp lung linh nhờ sự trợ giúp của camera selfie 50MP kết hợp cùng công nghệ Eye Autofocus. Ngoài ra, vivo đã thành công trong việc đưa hàng loạt tính năng đỉnh cao của hãng vào bộ khung vỏ mỏng nhẹ, thời trang, đầy phong cách.</span > <h4> <strong> Vivo V23e 8GB 128GB - Tinh tế, mạnh mẽ, nâng tầm trải nghiệm </strong> </h4> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-1.jpg\" /> <h4>Mỏng nhẹ, tinh tế, đơn giản và thoải mái</h4> <span> vivo V23e khoác lên mình thân máy siêu mỏng với độ dày chỉ 7.36mm. Sản phẩm được thiết kế theo phong cách tối giản nhưng không kém phần tinh tế. Thương hiệu điện thoại Vivo đã cho thấy sự thấu hiểu người dùng khi tối ưu kích cỡ thân máy chỉ còn 172 gram, đồng thời phủ một lớp chất liệu siêu mịn nhằm đem đến bề mặt nhám cho các cạnh bao quanh, không chỉ giúp cho trải nghiệm cầm nắm thoải mái hơn, mà còn tối ưu tính thẩm mỹ và gia tăng độ hoàn thiện tổng thể. .</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Với sự lựa chọn các gam màu thông minh và khéo léo ứng dụng hiệu ứng chuyển sắc theo góc nhìn, vivo V23e thể hiện vẻ đẹp mê hoặc và đầy cuốn hút. Mặt lưng sản phẩm được chế tác từ chất liệu rất mịn, chống bám vân tay để người dùng thỏa sức sử dụng trong nhiều giờ liên tục mà không gây bất cứ cảm giác khó chịu nào. Hai phiên bản Giai Điệu Bình Minh và Vũ Điệu Ánh Trăng của V23e chắc chắn sẽ thu hút bạn ngay từ cái nhìn đầu tiên.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Hình ảnh mãn nhãn mà màn hình 20:9 đem lại</h4> <span> Không gian hiển thị hình ảnh rộng 6.44 inch của Vivo V23e được xây dựng theo tỉ lệ khung hình 20:9 và đạt độ phân giải 2.400 x 1.080. Tấm nền AMOLED với thế mạnh trong việc thể hiện sắc đen sâu, tiết kiệm điện sẽ đem đến cho bạn những trải nghiệm trọn vẹn và mãn nhãn nhất. Mọi thước phim, hình ảnh, và thông tin hiển thị trên màn hình vivo V23e đều có độ chi tiết cao, cho thấy sự sắc sảo trong các gam màu. </span>"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Điện thoại Samsung Galaxy Z Flip4 128GB  ",
+      "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+      "price": 29900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-5.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-6.jpg"
+      ],
+      "description": "Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất điện thoại đã cho ra mắt các sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .",
+      "categoryId": 2,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Xanh hồng",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<span >Không đơn thuần là một chiếc smartphone, đây còn được xem là món phụ kiện thời trang cao cấp đến từ nhà Samsung . Chiếc smartphone Samsung Galaxy Z Flip4 256GB là sản phẩm được nâng cấp thành công từ phiên bản Samsung Galaxy Z Flip3 256GB.</span > <h4> <strong> Samsung Galaxy Z Flip4 256GB - Bước tiến mới trong thiết kế điện thoại gập độc đáo </strong> </h4> <h4> <strong> Samsung Galaxy Z Flip4 256GB - Nhỏ gọn trong lòng bàn tay của bạn </strong> </h4> <span> Samsung Galaxy Z Flip4 256GB ra mắt với 4 phiên bản màu sắc như tím Bora, xám Graphite, hồng Champane, xanh Love Bird và sở hữu ngoại hình bắt trend giúp người dùng có thêm nhiều sự lựa chọn dành cho bản thân. Ngoài ra, các góc cạnh của điện thoại được gia công phẳng một cách tinh tế kết hợp với tone màu trẻ trung thời thượng giúp người dùng toát lên được vẻ ngoài sang trọng và đầy tính hiện đại khi sử dụng.</span> <br> <span>Lần ra mắt này Samsung cho biết hãng đã nâng cấp phần bản lề để tăng tổng số lần gập trên Galaxy Z Flip4 lên đến 200.000. Tổng thể chiếc Galaxy Z Flip 4 256GB được bao bọc bởi bộ khung làm từ vật liệu nhôm Armor Aluminum cao cấp. không chỉ gia tăng độ bền làm tăng tuổi thọ mà còn giúp cho điện thoại toát lên được vẻ ngoài sang trọng và đẳng cấp nhờ khả năng phản quang óng ánh.</span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256gb-1.jpg\" /> <span>Samsung Galaxy Z Flip 4 256GB có một thân hình thon gọn nhờ ứng dụng tỉ lệ màn hình 22:9, điều này giúp cho quá trình cầm nắm của bạn trở nên dễ dàng hơn bởi bề rộng của máy được tối ưu đi. Với kích thước chiều dài sau khi gập là 84.8 mm, bạn có thể đựng trong túi quần hay bất kì vật dụng có kích thước nhỏ nào. Một điều đặc biệt nữa ở chiếc điện thoại di động Samsung gập đầu tiên trên thế giới này chính là tính năng hỗ trợ chuẩn kháng nước IPX8, giờ đây mọi người có thể an tâm hơn trong những tình huống khi vô tình tiếp xúc với nước mà không lo điện thoại bị hỏng.</span> <h4>Hiển thị hình ảnh sinh động</h4> <span> Sảm phẩm được trang bị tấm nền Dynamic AMOLED 2X cao cấp đến từ nhà Samsung với khả năng tái hiện hình ảnh có màu sắc sống động và rực rỡ. Màu đen trên màn hình cũng được hiển thị sâu giúp cho người dùng có thể trải nghiệm nội dung trên các tựa game hay bộ phim hành động trở nên chân thực hơn. Mật độ điểm ảnh được gia tăng lên 425 PPI vì máy được trang bị màn hình kích thước 6.7 inch cùng độ phân giải Full HD+ (1080 x 2640 Pixels). Các tác vụ chỉnh sửa ảnh sẽ được xử lý dễ dàng hơn trên chiếc Galaxy Z Flip4 256GB bởi độ sắc nét mà nó mang lại là rất cao.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256GB-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Phần mặt lưng của máy sẽ được trang bị một màn hình phụ có kích thước 1.9 inch giúp người dùng có thể đọc nhanh những thông báo, thậm chí ở phiên bản này máy còn hỗ trợ nhận cuộc gọi trực tiếp từ màn hình phụ mà không cần phải mở điện thoại. Với tần số quét lên đến 120Hz ở màn hình chính giúp cho mọi thao tác hàng ngày của bạn được diễn ra trơn mượt, ngoài ra máy còn có khả năng tự động điều chỉnh xuống còn 1 Hz cho những tác vụ không cần cuộn lướt quá nhiều để tiết kiệm điện năng tiêu thụ.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Chụp ảnh quay phim sắc nét</h4> <span> Khác với dòng Samsung Galaxy Z Flip3 128GB, điện thoại Samsung Z Flip4 256GB sở hữu ở phần mặt lưng là bộ đôi camera có cùng độ phân giải 12 MP với khả năng thu lại hình ảnh sắc nét, cũng như giúp bạn có thể quay được những thước phim đạt chuẩn 4K.</span>",
+      "variants": [
+        {
+          "id": "7.1",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Xanh hồng  ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 29900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-5.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-6.jpg"
+          ],
+          "description": "Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất điện thoại đã cho ra mắt các sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .",
+          "categoryId": 2,
+          "color": "Xanh hồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Không đơn thuần là một chiếc smartphone, đây còn được xem là món phụ kiện thời trang cao cấp đến từ nhà Samsung . Chiếc smartphone Samsung Galaxy Z Flip4 256GB là sản phẩm được nâng cấp thành công từ phiên bản Samsung Galaxy Z Flip3 256GB.</span > <h4> <strong> Samsung Galaxy Z Flip4 256GB - Bước tiến mới trong thiết kế điện thoại gập độc đáo </strong> </h4> <h4> <strong> Samsung Galaxy Z Flip4 256GB - Nhỏ gọn trong lòng bàn tay của bạn </strong> </h4> <span> Samsung Galaxy Z Flip4 256GB ra mắt với 4 phiên bản màu sắc như tím Bora, xám Graphite, hồng Champane, xanh Love Bird và sở hữu ngoại hình bắt trend giúp người dùng có thêm nhiều sự lựa chọn dành cho bản thân. Ngoài ra, các góc cạnh của điện thoại được gia công phẳng một cách tinh tế kết hợp với tone màu trẻ trung thời thượng giúp người dùng toát lên được vẻ ngoài sang trọng và đầy tính hiện đại khi sử dụng.</span> <br> <span>Lần ra mắt này Samsung cho biết hãng đã nâng cấp phần bản lề để tăng tổng số lần gập trên Galaxy Z Flip4 lên đến 200.000. Tổng thể chiếc Galaxy Z Flip 4 256GB được bao bọc bởi bộ khung làm từ vật liệu nhôm Armor Aluminum cao cấp. không chỉ gia tăng độ bền làm tăng tuổi thọ mà còn giúp cho điện thoại toát lên được vẻ ngoài sang trọng và đẳng cấp nhờ khả năng phản quang óng ánh.</span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256gb-1.jpg\" /> <span>Samsung Galaxy Z Flip 4 256GB có một thân hình thon gọn nhờ ứng dụng tỉ lệ màn hình 22:9, điều này giúp cho quá trình cầm nắm của bạn trở nên dễ dàng hơn bởi bề rộng của máy được tối ưu đi. Với kích thước chiều dài sau khi gập là 84.8 mm, bạn có thể đựng trong túi quần hay bất kì vật dụng có kích thước nhỏ nào. Một điều đặc biệt nữa ở chiếc điện thoại di động Samsung gập đầu tiên trên thế giới này chính là tính năng hỗ trợ chuẩn kháng nước IPX8, giờ đây mọi người có thể an tâm hơn trong những tình huống khi vô tình tiếp xúc với nước mà không lo điện thoại bị hỏng.</span> <h4>Hiển thị hình ảnh sinh động</h4> <span> Sảm phẩm được trang bị tấm nền Dynamic AMOLED 2X cao cấp đến từ nhà Samsung với khả năng tái hiện hình ảnh có màu sắc sống động và rực rỡ. Màu đen trên màn hình cũng được hiển thị sâu giúp cho người dùng có thể trải nghiệm nội dung trên các tựa game hay bộ phim hành động trở nên chân thực hơn. Mật độ điểm ảnh được gia tăng lên 425 PPI vì máy được trang bị màn hình kích thước 6.7 inch cùng độ phân giải Full HD+ (1080 x 2640 Pixels). Các tác vụ chỉnh sửa ảnh sẽ được xử lý dễ dàng hơn trên chiếc Galaxy Z Flip4 256GB bởi độ sắc nét mà nó mang lại là rất cao.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256GB-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Phần mặt lưng của máy sẽ được trang bị một màn hình phụ có kích thước 1.9 inch giúp người dùng có thể đọc nhanh những thông báo, thậm chí ở phiên bản này máy còn hỗ trợ nhận cuộc gọi trực tiếp từ màn hình phụ mà không cần phải mở điện thoại. Với tần số quét lên đến 120Hz ở màn hình chính giúp cho mọi thao tác hàng ngày của bạn được diễn ra trơn mượt, ngoài ra máy còn có khả năng tự động điều chỉnh xuống còn 1 Hz cho những tác vụ không cần cuộn lướt quá nhiều để tiết kiệm điện năng tiêu thụ.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Chụp ảnh quay phim sắc nét</h4> <span> Khác với dòng Samsung Galaxy Z Flip3 128GB, điện thoại Samsung Z Flip4 256GB sở hữu ở phần mặt lưng là bộ đôi camera có cùng độ phân giải 12 MP với khả năng thu lại hình ảnh sắc nét, cũng như giúp bạn có thể quay được những thước phim đạt chuẩn 4K.</span>"
+        },
+        {
+          "id": "7.2",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Vàng đồng  ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 29900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/258047/sam-sung-galaxy-zflip4-vang-hong-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/sam-sung-galaxy-zflip4-vang-hong-3.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/sam-sung-galaxy-zflip4-vang-hong-2.jpg"
+          ],
+          "description": "Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất điện thoại đã cho ra mắt các sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .",
+          "categoryId": 2,
+          "color": "Vàng đồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Không đơn thuần là một chiếc smartphone, đây còn được xem là món phụ kiện thời trang cao cấp đến từ nhà Samsung . Chiếc smartphone Samsung Galaxy Z Flip4 256GB là sản phẩm được nâng cấp thành công từ phiên bản Samsung Galaxy Z Flip3 256GB.</span > <h4> <strong> Samsung Galaxy Z Flip4 256GB - Bước tiến mới trong thiết kế điện thoại gập độc đáo </strong> </h4> <h4> <strong> Samsung Galaxy Z Flip4 256GB - Nhỏ gọn trong lòng bàn tay của bạn </strong> </h4> <span> Samsung Galaxy Z Flip4 256GB ra mắt với 4 phiên bản màu sắc như tím Bora, xám Graphite, hồng Champane, xanh Love Bird và sở hữu ngoại hình bắt trend giúp người dùng có thêm nhiều sự lựa chọn dành cho bản thân. Ngoài ra, các góc cạnh của điện thoại được gia công phẳng một cách tinh tế kết hợp với tone màu trẻ trung thời thượng giúp người dùng toát lên được vẻ ngoài sang trọng và đầy tính hiện đại khi sử dụng.</span> <br> <span>Lần ra mắt này Samsung cho biết hãng đã nâng cấp phần bản lề để tăng tổng số lần gập trên Galaxy Z Flip4 lên đến 200.000. Tổng thể chiếc Galaxy Z Flip 4 256GB được bao bọc bởi bộ khung làm từ vật liệu nhôm Armor Aluminum cao cấp. không chỉ gia tăng độ bền làm tăng tuổi thọ mà còn giúp cho điện thoại toát lên được vẻ ngoài sang trọng và đẳng cấp nhờ khả năng phản quang óng ánh.</span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256gb-1.jpg\" /> <span>Samsung Galaxy Z Flip 4 256GB có một thân hình thon gọn nhờ ứng dụng tỉ lệ màn hình 22:9, điều này giúp cho quá trình cầm nắm của bạn trở nên dễ dàng hơn bởi bề rộng của máy được tối ưu đi. Với kích thước chiều dài sau khi gập là 84.8 mm, bạn có thể đựng trong túi quần hay bất kì vật dụng có kích thước nhỏ nào. Một điều đặc biệt nữa ở chiếc điện thoại di động Samsung gập đầu tiên trên thế giới này chính là tính năng hỗ trợ chuẩn kháng nước IPX8, giờ đây mọi người có thể an tâm hơn trong những tình huống khi vô tình tiếp xúc với nước mà không lo điện thoại bị hỏng.</span> <h4>Hiển thị hình ảnh sinh động</h4> <span> Sảm phẩm được trang bị tấm nền Dynamic AMOLED 2X cao cấp đến từ nhà Samsung với khả năng tái hiện hình ảnh có màu sắc sống động và rực rỡ. Màu đen trên màn hình cũng được hiển thị sâu giúp cho người dùng có thể trải nghiệm nội dung trên các tựa game hay bộ phim hành động trở nên chân thực hơn. Mật độ điểm ảnh được gia tăng lên 425 PPI vì máy được trang bị màn hình kích thước 6.7 inch cùng độ phân giải Full HD+ (1080 x 2640 Pixels). Các tác vụ chỉnh sửa ảnh sẽ được xử lý dễ dàng hơn trên chiếc Galaxy Z Flip4 256GB bởi độ sắc nét mà nó mang lại là rất cao.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256GB-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Phần mặt lưng của máy sẽ được trang bị một màn hình phụ có kích thước 1.9 inch giúp người dùng có thể đọc nhanh những thông báo, thậm chí ở phiên bản này máy còn hỗ trợ nhận cuộc gọi trực tiếp từ màn hình phụ mà không cần phải mở điện thoại. Với tần số quét lên đến 120Hz ở màn hình chính giúp cho mọi thao tác hàng ngày của bạn được diễn ra trơn mượt, ngoài ra máy còn có khả năng tự động điều chỉnh xuống còn 1 Hz cho những tác vụ không cần cuộn lướt quá nhiều để tiết kiệm điện năng tiêu thụ.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Chụp ảnh quay phim sắc nét</h4> <span> Khác với dòng Samsung Galaxy Z Flip3 128GB, điện thoại Samsung Z Flip4 256GB sở hữu ở phần mặt lưng là bộ đôi camera có cùng độ phân giải 12 MP với khả năng thu lại hình ảnh sắc nét, cũng như giúp bạn có thể quay được những thước phim đạt chuẩn 4K.</span>"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Điện thoại Samsung Galaxy Z Flip4 128GB  ",
+      "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+      "price": 27900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+      ],
+      "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+      "categoryId": 2,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Đỏ",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<span >Samsung Galaxy Z Flip4 128GB đã chính thức ra mắt thị trường công nghệ, đánh dấu sự trở lại của Samsung trên con đường định hướng người dùng về sự tiện lợi trên những chiếc điện thoại gập. Với độ bền được gia tăng cùng kiểu thiết kế đẹp mắt giúp Flip4 trở thành một trong những tâm điểm sáng giá cho nửa cuối năm 2022. <h4> <strong> Dẫn đầu xu hướng thiết kế mới </strong> </h4> <span> Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất thiết bị di động đã cho ra mắt khá nhiều sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .</span> <br> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-230922-100334.jpg\" /> <span>Ngay từ những giây phút đầu tiên sử dụng chiếc Galaxy Z Flip4 mình đã cảm nhận được sự khác biệt của nó so với thế hệ trước, máy bây giờ đã vuông vắn hơn nhờ tạo hình vát phẳng ở hai mặt và các cạnh. .</span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-230922-100336.jpg\" /> <span> Phần mặt lưng của máy được phủ một lớp nhám nhẹ giúp cho mình có thể cầm nắm chắc tay hơn, hạn chế được tình trạng bám dấu vân tay trong quá trình sử dụng. </span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-230922-100343.jpg\" /> <span> Theo như hãng công bố thì phiên bản điện thoại Galaxy Z này có thể gập lên đến 200.000 lần liên tục trong phòng thí nghiệm. Nếu trung bình một ngày bạn gập, mở máy khoảng 50 lần thì mất khoảng 10 năm thì mới có thể đạt đến số lần gập này.</span>",
+      "variants": [
+        {
+          "id": "8.1",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Đỏ",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Samsung Galaxy Z Flip4 128GB đã chính thức ra mắt thị trường công nghệ, đánh dấu sự trở lại của Samsung trên con đường định hướng người dùng về sự tiện lợi trên những chiếc điện thoại gập. Với độ bền được gia tăng cùng kiểu thiết kế đẹp mắt giúp Flip4 trở thành một trong những tâm điểm sáng giá cho nửa cuối năm 2022. <h4> <strong> Dẫn đầu xu hướng thiết kế mới </strong> </h4> <span> Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất thiết bị di động đã cho ra mắt khá nhiều sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .</span> <br> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-230922-100334.jpg\" /> <span>Ngay từ những giây phút đầu tiên sử dụng chiếc Galaxy Z Flip4 mình đã cảm nhận được sự khác biệt của nó so với thế hệ trước, máy bây giờ đã vuông vắn hơn nhờ tạo hình vát phẳng ở hai mặt và các cạnh. .</span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-230922-100336.jpg\" /> <span> Phần mặt lưng của máy được phủ một lớp nhám nhẹ giúp cho mình có thể cầm nắm chắc tay hơn, hạn chế được tình trạng bám dấu vân tay trong quá trình sử dụng. </span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-230922-100343.jpg\" /> <span> Theo như hãng công bố thì phiên bản điện thoại Galaxy Z này có thể gập lên đến 200.000 lần liên tục trong phòng thí nghiệm. Nếu trung bình một ngày bạn gập, mở máy khoảng 50 lần thì mất khoảng 10 năm thì mới có thể đạt đến số lần gập này.</span>"
+        },
+        {
+          "id": "8.2",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Đỏ ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 27900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/235838/samsung-galaxy-s22-ultra-do-5.jpg"
+          ],
+          "description": "Điện thoại iPhone được kế thừa form thiết kế từ những dòng Note trước đây của hãng đem đến cho bạn có cảm giác vừa mới lạ vừa hoài niệm. Trọng lượng của máy 228 g cho cảm giác cầm nắm đầm tay, khi cầm máy trần thì hơi có cảm giác dễ trượt.",
+          "categoryId": 2,
+          "color": "Vàng đồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Samsung Galaxy Z Flip4 128GB đã chính thức ra mắt thị trường công nghệ, đánh dấu sự trở lại của Samsung trên con đường định hướng người dùng về sự tiện lợi trên những chiếc điện thoại gập. Với độ bền được gia tăng cùng kiểu thiết kế đẹp mắt giúp Flip4 trở thành một trong những tâm điểm sáng giá cho nửa cuối năm 2022. <h4> <strong> Dẫn đầu xu hướng thiết kế mới </strong> </h4> <span> Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất thiết bị di động đã cho ra mắt khá nhiều sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .</span> <br> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-230922-100334.jpg\" /> <span>Ngay từ những giây phút đầu tiên sử dụng chiếc Galaxy Z Flip4 mình đã cảm nhận được sự khác biệt của nó so với thế hệ trước, máy bây giờ đã vuông vắn hơn nhờ tạo hình vát phẳng ở hai mặt và các cạnh. .</span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-230922-100336.jpg\" /> <span> Phần mặt lưng của máy được phủ một lớp nhám nhẹ giúp cho mình có thể cầm nắm chắc tay hơn, hạn chế được tình trạng bám dấu vân tay trong quá trình sử dụng. </span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-230922-100343.jpg\" /> <span> Theo như hãng công bố thì phiên bản điện thoại Galaxy Z này có thể gập lên đến 200.000 lần liên tục trong phòng thí nghiệm. Nếu trung bình một ngày bạn gập, mở máy khoảng 50 lần thì mất khoảng 10 năm thì mới có thể đạt đến số lần gập này.</span>"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Điện thoại iPhone 11 64GB ",
+      "slug": "Điện-thoại-iPhone-11-64GB ",
+      "price": 4790000,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "IOS",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+      "color": "Đen",
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-2-1-org.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-3-1-org.jpg"
+      ],
+      "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+      "categoryId": 1,
+      "content": "<h4> <strong> Apple chính thức trình làng bộ ba siêu phẩm iPhone 11 Series cao cấp nhất với A13 hay iOS 13 mạnh mẽ</strong > </h4> <span> Trong bài viết này hãy cùng tìm hiểu iPhone 11, sản phẩm có hiệu năng mạnh mẽ và toàn diện nhất trong giới công nghệ, cùng với đó là tổ hợp nhiều cải tiến tính năng thông minh mang lại hiệu quả cực cao cho người trải nghiệm siêu phẩm. Hơn thế nữa, khi là khách hàng của 24hStore - Hệ thống ủy quyền chính hãng của Apple (AAR) các bạn hoàn toàn có thể yên tâm về mọi mặt từ chất lượng, ưu đãi đến bảo hành. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-2.jpg\" /> <h1> Apple iPhone 11 64GB - Phiên bản đa sắc nhất của Nhà Táo </h1> ><span> Apple luôn thế! Phiên bản iPhone 11 năm nay được trang bị nhiều tính năng thông minh và mang lại hiệu quả cao cho người trải nghiệm, thực sự mà nói sản phẩm iPhone 11 2019 đúng chất là những siêu phẩm toàn diện nhất ở thời điểm hiện tại. Kèm với đó, không một smartphone nào khác có tính bảo mật an toàn tuyệt đối như iPhone, đặc biệt hơn hết, Apple đã cho kích hoạt tính năng luân chuyển camera tự động cực thông minh trên các biến thể iPhone năm nay,... Và kèm rất rất nhiều các tính năng tiện lợi khác bổ ích cho công việc hay cuộc sống của bạn.</span <br> <span> Apple chính thức trang bị cho sản phẩm iPhone 11 64GB hay các biến thể iPhone 11 bộ cảm biến đa nhiệm hoàn toàn siêu việt, nó có khả năng khuếch đại tần suất để tăng tốc độ xử lý hiệu ứng một cách nhanh chóng (con số ước chừng có thể đạt 30%). Ngoài ra, cụm cảm biến camera kép sáng tạo cũng chính là tiêu chuẩn ở iPhone 11 năm nay, nó đồng bộ 12 MP trên cả iPhone 11 Pro Apple hay iPhone 11 Pro Max. Qua đó, đây cũng là điểm nhấn đáng chú ý trên các mẫu iPhone 11 được trình làng năm nay. Kèm với đó, phiên bản hệ điều hành iOS 13 huyền bí cũng là tiêu chuẩn để sở hữu những tác vụ cũng như hoạt động ở một giao diện với mật độ hiển thị khung hình một cách khoa học và dễ dàng thao tác nhất. Thế nên, giá để người tiêu dùng sở hữu một chiếc iPhone 11 mới là rất cao so với các mẫu điện thoại thông minh bình thướng khác. </span> </div> > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-1(2).jpg\" /> <h1>Đánh giá khách quan về mẫu iPhone 11 của 24hStore</h1> <span> 24hStore đã tiến hành đánh giá tổng thể với iPhone 11, iPhone 11 Pro và iPhone 11 99%. Về thiết kế, chúng trông nổi bật như iPhone XR, iPhone XS và iPhone XS Max năm ngoái, từ màn hình điểm Notch đến toàn bộ mọi thứ bên trong hay mặt lưng của sản phẩm. Màu sắc hay thiết kế mọi thứ trông hoàn thiện đến mức cảm nhận tinh tế hơn, và đặc biệt siêu phẩm rất giống so với sản phẩm iPhone XR trước đó. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-cu-15(1).jpg\" /> <span> Điều ấn tượng là sự hợp nhất giữa pin lớn hơn 5% và chipset kết quả hơn 40%, cho thấy Apple đã tăng nhu cầu sử dụng thêm một giờ trải nghiệm thiết bị so với iPhone XR trước đó. Điều này có thể nói rằng, bất kỳ điện thoại iPhone 11 nào đều sẽ kéo dài thời lượng pin hơn một giờ so với iPhone XR hay iPhone XS, iPhone XS Max trước đó. </span>",
+      "variants": [
+        {
+          "id": "9.1",
+          "name": "Điện thoại iPhone 11 64GB Màu Đen",
+          "slug": "Điện-thoại-iPhone-11-64GB ",
+          "price": 4790000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-2-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-3-1-org.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "color": "Đen",
+          "content": "<h4> <strong> Apple chính thức trình làng bộ ba siêu phẩm iPhone 11 Series cao cấp nhất với A13 hay iOS 13 mạnh mẽ</strong > </h4> <span> Trong bài viết này hãy cùng tìm hiểu iPhone 11, sản phẩm có hiệu năng mạnh mẽ và toàn diện nhất trong giới công nghệ, cùng với đó là tổ hợp nhiều cải tiến tính năng thông minh mang lại hiệu quả cực cao cho người trải nghiệm siêu phẩm. Hơn thế nữa, khi là khách hàng của 24hStore - Hệ thống ủy quyền chính hãng của Apple (AAR) các bạn hoàn toàn có thể yên tâm về mọi mặt từ chất lượng, ưu đãi đến bảo hành. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-2.jpg\" /> <h1> Apple iPhone 11 64GB - Phiên bản đa sắc nhất của Nhà Táo </h1> ><span> Apple luôn thế! Phiên bản iPhone 11 năm nay được trang bị nhiều tính năng thông minh và mang lại hiệu quả cao cho người trải nghiệm, thực sự mà nói sản phẩm iPhone 11 2019 đúng chất là những siêu phẩm toàn diện nhất ở thời điểm hiện tại. Kèm với đó, không một smartphone nào khác có tính bảo mật an toàn tuyệt đối như iPhone, đặc biệt hơn hết, Apple đã cho kích hoạt tính năng luân chuyển camera tự động cực thông minh trên các biến thể iPhone năm nay,... Và kèm rất rất nhiều các tính năng tiện lợi khác bổ ích cho công việc hay cuộc sống của bạn.</span <br> <span> Apple chính thức trang bị cho sản phẩm iPhone 11 64GB hay các biến thể iPhone 11 bộ cảm biến đa nhiệm hoàn toàn siêu việt, nó có khả năng khuếch đại tần suất để tăng tốc độ xử lý hiệu ứng một cách nhanh chóng (con số ước chừng có thể đạt 30%). Ngoài ra, cụm cảm biến camera kép sáng tạo cũng chính là tiêu chuẩn ở iPhone 11 năm nay, nó đồng bộ 12 MP trên cả iPhone 11 Pro Apple hay iPhone 11 Pro Max. Qua đó, đây cũng là điểm nhấn đáng chú ý trên các mẫu iPhone 11 được trình làng năm nay. Kèm với đó, phiên bản hệ điều hành iOS 13 huyền bí cũng là tiêu chuẩn để sở hữu những tác vụ cũng như hoạt động ở một giao diện với mật độ hiển thị khung hình một cách khoa học và dễ dàng thao tác nhất. Thế nên, giá để người tiêu dùng sở hữu một chiếc iPhone 11 mới là rất cao so với các mẫu điện thoại thông minh bình thướng khác. </span> </div> > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-1(2).jpg\" /> <h1>Đánh giá khách quan về mẫu iPhone 11 của 24hStore</h1> <span> 24hStore đã tiến hành đánh giá tổng thể với iPhone 11, iPhone 11 Pro và iPhone 11 99%. Về thiết kế, chúng trông nổi bật như iPhone XR, iPhone XS và iPhone XS Max năm ngoái, từ màn hình điểm Notch đến toàn bộ mọi thứ bên trong hay mặt lưng của sản phẩm. Màu sắc hay thiết kế mọi thứ trông hoàn thiện đến mức cảm nhận tinh tế hơn, và đặc biệt siêu phẩm rất giống so với sản phẩm iPhone XR trước đó. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-cu-15(1).jpg\" /> <span> Điều ấn tượng là sự hợp nhất giữa pin lớn hơn 5% và chipset kết quả hơn 40%, cho thấy Apple đã tăng nhu cầu sử dụng thêm một giờ trải nghiệm thiết bị so với iPhone XR trước đó. Điều này có thể nói rằng, bất kỳ điện thoại iPhone 11 nào đều sẽ kéo dài thời lượng pin hơn một giờ so với iPhone XR hay iPhone XS, iPhone XS Max trước đó. </span>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        },
+        {
+          "id": "9.2",
+          "name": "Điện thoại iPhone 11 64GB Mầu Đỏ",
+          "slug": "Điện-thoại-iPhone-11-64GB ",
+          "price": 4790000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-1-1-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-3-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-do-2-1-org.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "categoryId": 1,
+          "color": "Đỏ",
+          "content": "<h4> <strong> Apple chính thức trình làng bộ ba siêu phẩm iPhone 11 Series cao cấp nhất với A13 hay iOS 13 mạnh mẽ</strong > </h4> <span> Trong bài viết này hãy cùng tìm hiểu iPhone 11, sản phẩm có hiệu năng mạnh mẽ và toàn diện nhất trong giới công nghệ, cùng với đó là tổ hợp nhiều cải tiến tính năng thông minh mang lại hiệu quả cực cao cho người trải nghiệm siêu phẩm. Hơn thế nữa, khi là khách hàng của 24hStore - Hệ thống ủy quyền chính hãng của Apple (AAR) các bạn hoàn toàn có thể yên tâm về mọi mặt từ chất lượng, ưu đãi đến bảo hành. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-2.jpg\" /> <h1> Apple iPhone 11 64GB - Phiên bản đa sắc nhất của Nhà Táo </h1> > <span> Apple luôn thế! Phiên bản iPhone 11 năm nay được trang bị nhiều tính năng thông minh và mang lại hiệu quả cao cho người trải nghiệm, thực sự mà nói sản phẩm iPhone 11 2019 đúng chất là những siêu phẩm toàn diện nhất ở thời điểm hiện tại. Kèm với đó, không một smartphone nào khác có tính bảo mật an toàn tuyệt đối như iPhone, đặc biệt hơn hết, Apple đã cho kích hoạt tính năng luân chuyển camera tự động cực thông minh trên các biến thể iPhone năm nay,... Và kèm rất rất nhiều các tính năng tiện lợi khác bổ ích cho công việc hay cuộc sống của bạn.</span <br> <span> Apple chính thức trang bị cho sản phẩm iPhone 11 64GB hay các biến thể iPhone 11 bộ cảm biến đa nhiệm hoàn toàn siêu việt, nó có khả năng khuếch đại tần suất để tăng tốc độ xử lý hiệu ứng một cách nhanh chóng (con số ước chừng có thể đạt 30%). Ngoài ra, cụm cảm biến camera kép sáng tạo cũng chính là tiêu chuẩn ở iPhone 11 năm nay, nó đồng bộ 12 MP trên cả iPhone 11 Pro Apple hay iPhone 11 Pro Max. Qua đó, đây cũng là điểm nhấn đáng chú ý trên các mẫu iPhone 11 được trình làng năm nay. Kèm với đó, phiên bản hệ điều hành iOS 13 huyền bí cũng là tiêu chuẩn để sở hữu những tác vụ cũng như hoạt động ở một giao diện với mật độ hiển thị khung hình một cách khoa học và dễ dàng thao tác nhất. Thế nên, giá để người tiêu dùng sở hữu một chiếc iPhone 11 mới là rất cao so với các mẫu điện thoại thông minh bình thướng khác. </span> </div> > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-1(2).jpg\" /> <h1>Đánh giá khách quan về mẫu iPhone 11 của 24hStore</h1> <span> 24hStore đã tiến hành đánh giá tổng thể với iPhone 11, iPhone 11 Pro và iPhone 11 99%. Về thiết kế, chúng trông nổi bật như iPhone XR, iPhone XS và iPhone XS Max năm ngoái, từ màn hình điểm Notch đến toàn bộ mọi thứ bên trong hay mặt lưng của sản phẩm. Màu sắc hay thiết kế mọi thứ trông hoàn thiện đến mức cảm nhận tinh tế hơn, và đặc biệt siêu phẩm rất giống so với sản phẩm iPhone XR trước đó. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone-11-cu-15(1).jpg\" /> <span> Điều ấn tượng là sự hợp nhất giữa pin lớn hơn 5% và chipset kết quả hơn 40%, cho thấy Apple đã tăng nhu cầu sử dụng thêm một giờ trải nghiệm thiết bị so với iPhone XR trước đó. Điều này có thể nói rằng, bất kỳ điện thoại iPhone 11 nào đều sẽ kéo dài thời lượng pin hơn một giờ so với iPhone XR hay iPhone XS, iPhone XS Max trước đó. </span>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Điện thoại iPhone 13 Pro Max 512GB",
+      "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB ",
+      "price": 11790000,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "IOS",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Vàng đồng",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<h4> <strong> Đúng như dự kiến, iPhone 13 series đã làm khuấy đảo giới công nghệ tại sự kiện Apple California Streaming diễn ra 0h ngày 15/09 (giờ Việt Nam). iPhone 13 128GB có điểm gì khác biệt so với thế hệ tiền nhiệm mà có thể tạo nên cơn sốt như thế? Hãy cùng di động 24hStore tìm hiểu ngay sau đây.</strong > </h4> <h4> <strong> Thiết kế với nhiều đột phá</strong></h4> <span> Là chiếc flagship được mong chờ nhất năm 2021, siêu phẩm iPhone 13 sở hữu thiết kế vuông vắn, mang hơi hướng cổ điển. Máy vẫn có khung kim loại kết hợp cùng mặt lưng kính. Khung kim loại có thể là nhôm hoặc thép tuỳ từng phiên bản.</span> <br> <span> Sự thay đổi lớn nhất về mặt thiết kế của iPhone 13 128GB khiến mọi người nhận ra rõ nhất chính là cách sắp xếp vị trí cụm camera sau. Nếu như các phiên bản trước thường đặt dọc, ở dòng này hãng bố trí cho hai camera xếp chéo nhau, tạo ra một nét đặc trưng, mới mẻ hơn, giúp mọi người dễ dàng nhận diện. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_1.jpg\" /> <h1> Màn hình </h1> <span>Không nằm ngoài dự đoán, iPhone 13 128GB chính hãng sử dụng tấm nền OLED chất lượng cao và có kích thước 6.1 inch. Tấm nền tích hợp công nghệ ProMotion giúp thiết bị tiết kiệm pin đến tối đa khi sử dụng, tự động điều chỉnh tốc độ làm mới sao cho thích hợp nhất với ứng dụng đang chạy.</span> <br> <span> Màn hình Super Retina XDR của máy đạt độ sáng 800 nits, tối đa có thể lên tới 1200 nits cùng dải màu rộng P3, tỉ lệ tương phản lớn. Không chỉ vậy, Bên ngoài màn hình được phủ lớp oleophobic, nhờ đó hạn chế được các tình trạng bám bụi bẩn và mồ hôi trong quá trình sử dụng thiết bị.</span> <h1>Camera kép cải tiến</h1> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_5.jpg\" /> <span> Camera trước vẫn nằm trong notch - tai thỏ, có độ phân giải 12MP cùng khẩu độ ƒ / 2.2. Camera selfie này tích hợp công nghệ chụp ảnh chuyên nghiệp như hiệu ứng bokeh, chế độ điện ảnh, Animoji và Memoji,... mang lại những bức hình selfie hoàn hảo. </span>",
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-2-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-3-1.jpg"
+      ],
+      "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 13, trong đó phiên bản iPhone 13 512GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+      "categoryId": 1,
+      "variants": [
+        {
+          "id": "10.1",
+          "name": "Điện thoại iPhone 13 Pro Max 512GB Màu vàng đồng",
+          "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB ",
+          "price": 4200000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-2-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-3-1.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "color": "Vàng đồng",
+          "content": "<h4> <strong> Đúng như dự kiến, iPhone 13 series đã làm khuấy đảo giới công nghệ tại sự kiện Apple California Streaming diễn ra 0h ngày 15/09 (giờ Việt Nam). iPhone 13 128GB có điểm gì khác biệt so với thế hệ tiền nhiệm mà có thể tạo nên cơn sốt như thế? Hãy cùng di động 24hStore tìm hiểu ngay sau đây.</strong > </h4> <h4> <strong> Thiết kế với nhiều đột phá</strong></h4> <span> Là chiếc flagship được mong chờ nhất năm 2021, siêu phẩm iPhone 13 sở hữu thiết kế vuông vắn, mang hơi hướng cổ điển. Máy vẫn có khung kim loại kết hợp cùng mặt lưng kính. Khung kim loại có thể là nhôm hoặc thép tuỳ từng phiên bản.</span> <br> <span> Sự thay đổi lớn nhất về mặt thiết kế của iPhone 13 128GB khiến mọi người nhận ra rõ nhất chính là cách sắp xếp vị trí cụm camera sau. Nếu như các phiên bản trước thường đặt dọc, ở dòng này hãng bố trí cho hai camera xếp chéo nhau, tạo ra một nét đặc trưng, mới mẻ hơn, giúp mọi người dễ dàng nhận diện. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_1.jpg\" /> <h1> Màn hình </h1> <span>Không nằm ngoài dự đoán, iPhone 13 128GB chính hãng sử dụng tấm nền OLED chất lượng cao và có kích thước 6.1 inch. Tấm nền tích hợp công nghệ ProMotion giúp thiết bị tiết kiệm pin đến tối đa khi sử dụng, tự động điều chỉnh tốc độ làm mới sao cho thích hợp nhất với ứng dụng đang chạy.</span> <br> <span> Màn hình Super Retina XDR của máy đạt độ sáng 800 nits, tối đa có thể lên tới 1200 nits cùng dải màu rộng P3, tỉ lệ tương phản lớn. Không chỉ vậy, Bên ngoài màn hình được phủ lớp oleophobic, nhờ đó hạn chế được các tình trạng bám bụi bẩn và mồ hôi trong quá trình sử dụng thiết bị.</span> <h1>Camera kép cải tiến</h1> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_5.jpg\" /> <span> Camera trước vẫn nằm trong notch - tai thỏ, có độ phân giải 12MP cùng khẩu độ ƒ / 2.2. Camera selfie này tích hợp công nghệ chụp ảnh chuyên nghiệp như hiệu ứng bokeh, chế độ điện ảnh, Animoji và Memoji,... mang lại những bức hình selfie hoàn hảo. </span>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        },
+        {
+          "id": "10.2",
+          "name": "Điện thoại iPhone 13 Pro Max 512GB màu xám",
+          "slug": "Điện-thoại-iPhone-13-Pro-Max-512GB ",
+          "price": 33900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-1-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-2-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/250262/iphone-13-pro-max-3-2.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "categoryId": 1,
+          "color": "Xám",
+          "content": "<h4> <strong> Đúng như dự kiến, iPhone 13 series đã làm khuấy đảo giới công nghệ tại sự kiện Apple California Streaming diễn ra 0h ngày 15/09 (giờ Việt Nam). iPhone 13 128GB có điểm gì khác biệt so với thế hệ tiền nhiệm mà có thể tạo nên cơn sốt như thế? Hãy cùng di động 24hStore tìm hiểu ngay sau đây.</strong > </h4> <h4> <strong> Thiết kế với nhiều đột phá</strong></h4> <span> Là chiếc flagship được mong chờ nhất năm 2021, siêu phẩm iPhone 13 sở hữu thiết kế vuông vắn, mang hơi hướng cổ điển. Máy vẫn có khung kim loại kết hợp cùng mặt lưng kính. Khung kim loại có thể là nhôm hoặc thép tuỳ từng phiên bản.</span> <br> <span> Sự thay đổi lớn nhất về mặt thiết kế của iPhone 13 128GB khiến mọi người nhận ra rõ nhất chính là cách sắp xếp vị trí cụm camera sau. Nếu như các phiên bản trước thường đặt dọc, ở dòng này hãng bố trí cho hai camera xếp chéo nhau, tạo ra một nét đặc trưng, mới mẻ hơn, giúp mọi người dễ dàng nhận diện. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_1.jpg\" /> <h1> Màn hình </h1> <span>Không nằm ngoài dự đoán, iPhone 13 128GB chính hãng sử dụng tấm nền OLED chất lượng cao và có kích thước 6.1 inch. Tấm nền tích hợp công nghệ ProMotion giúp thiết bị tiết kiệm pin đến tối đa khi sử dụng, tự động điều chỉnh tốc độ làm mới sao cho thích hợp nhất với ứng dụng đang chạy.</span> <br> <span> Màn hình Super Retina XDR của máy đạt độ sáng 800 nits, tối đa có thể lên tới 1200 nits cùng dải màu rộng P3, tỉ lệ tương phản lớn. Không chỉ vậy, Bên ngoài màn hình được phủ lớp oleophobic, nhờ đó hạn chế được các tình trạng bám bụi bẩn và mồ hôi trong quá trình sử dụng thiết bị.</span> <h1>Camera kép cải tiến</h1> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/iphone_13_hinh_5.jpg\" /> <span> Camera trước vẫn nằm trong notch - tai thỏ, có độ phân giải 12MP cùng khẩu độ ƒ / 2.2. Camera selfie này tích hợp công nghệ chụp ảnh chuyên nghiệp như hiệu ứng bokeh, chế độ điện ảnh, Animoji và Memoji,... mang lại những bức hình selfie hoàn hảo. </span>",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Điện thoại iPhone 14 Pro Max 128GB",
+      "slug": "Điện-thoại-iPhone-14-Pro-Max -128GB ",
+      "price": 33990000,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "IOS",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Tím",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<h4> <strong> Là sản phẩm nổi bật nhất trong series lần này, vào 0 giờ sáng ngày 08/09/2022 theo giờ Việt Nam, nhà Apple đã chính thức ra mắt các mẫu iPhone 14 mới nhất</strong > </h4> <span> sự tập trung đề đổ dồn vào chiếc iPhone 14 Pro Max 128GB với thiết kế phần cắt viên thuốc đặc sắc hoàn toàn mới thay thế đi phần tai thỏ trước đây đặt chính giữa màn hình và nâng cấp một số tính năng được trang bị cho hai siêu phẩm này. Chắc hẳn các iFans đang rất trông chờ về mặt thiết kế cũng như các thông số kỹ thuật của điện thoại iPhone 14 Pro Max. Vậy chiếc iPhone 14 Pro Max 128GB sẽ có gì khác biệt so với các siêu phẩm iPhone khác. Cùng 24hStore tìm hiểu nhé! </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/2022/10/20/iphone-14-series-25.jpg\" /> <h1> 1. Điện thoại iPhone 14 Pro Max 128GB được cải tiến ấn tượng như thế nào? </h1> <h2>1.1 Thiết kế mới nổi bật của iPhone 14 Pro Max</h2> <a> Apple iPhone 14</a ><span> Pro Max 128GB được thiết kế bằng thép không gỉ và kính mờ với kết cấu đẹp mắt. Kích thước của iPhone 14 Pro Max 128GB sẽ là 6.7 inch với thiết kế màn hình có các góc được bo tròn theo thiết kế cong đẹp mắt và các góc này sẽ được thiết kế nằm trong hình chữ nhật tiêu chuẩn. Không chỉ thế, iPhone 14 Pro Max 128GB còn được cải tiến mặt kính màn hình điện thoại với mặt trước Ceramic Shield cứng hơn bất kỳ loại kính điện thoại thông minh trên thế giới kết hợp với khả năng chống tia nước, chống nước và bụi. Ngoài ra, iPhone 14 Pro Max đã được thử nghiệm trong các điều kiện phòng thí nghiệm được kiểm soát và có xếp hạng IP68 nhằm cho iPhone có thể kháng nước ở độ sâu tối đa 6 mét trong tối đa 30 phút. Điều đặc biệt trong lần ra mắt lần này thì iPhone 14 Pro Max 128GB sẽ có 4 màu sắc tùy chọn là đen, trắng, vàng và tím mới vô cùng nổi bật.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/mau-sac-iphone-14.jpg\" /> <h2>1.2 Màn hình nâng cấp Super Retina XDR kết hợp với công nghệ ProMotion</h2> <span> Màn hình của iPhone 14 Pro Max 128GB được cải tiến với công nghệ màn hình Super Retina XDR kết hợp với ProMotion lên đến 120 HZ giúp màn hình iPhone có thêm tính năng hiển thị Always-On lần đầu tiên trên iPhone nhằm giúp màn hình khóa trên iPhone trở nên hữu dụng hơn với người dùng. Ngoài ra, Apple còn kích hoạt thêm tốc độ làm mới màn hình lên tới 1Hz cùng với công nghệ tiết kiệm điện năng khi sử dụng độ phân giải màn hình cao. Không chỉ thế, Apple còn cải tiến thêm mức độ sáng HDR cao nhất lên đến 2000 nits trên màn hình điện thoại iPhone 14 Pro Max 128GB. Đây có thể nói là độ sáng ngoài trời cao nhất đối với các dòng điện thoại thông minh ở thời điểm hiện tại và sáng gấp đôi dòng iPhone 13 Pro Max thế hệ trước. Điều đặc biệt là Apple đổi mới khu vực notch được tối ưu hơn với tính năng Dynamic Island cho phép những cách mới để tương tác với iPhone, có thiết kế kết hợp ranh giới giữa phần cứng và phần mềm, thích ứng trong thời gian thực để hiển thị các cảnh báo, thông báo và hoạt động quan trọng. Với sự ra đời của Dynamic Island, camera TrueDepth đã được thiết kế lại để chiếm ít diện tích hiển thị hơn. Không cản trở nội dung trên màn hình, Dynamic Island còn có duy trì trạng thái hoạt động để cho phép người dùng truy cập dễ dàng hơn vào các điều khiển chỉ bằng một thao tác chạm và giữ đơn giản. Các tính năng có thể hoạt động trên khu vực notch có thể là bản đồ, âm nhạc hoặc đồng hồ hẹn giờ vẫn hiển thị và tương tác và các ứng dụng của bên thứ ba có trong bản cập nhật iOS 16. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/Content%2024h%20store%20k%C3%ADch%20c%E1%BB%A1%20799x499%20(22).png\" /> <span> Vì iPhone 14 Pro Max có nhiều màu, dung lượng máy cũng nhiều loại để người dùng lựa chọn, qua đó bảng giá của dòng điện thoại này cũng khá đa dạng. Tùy vào sự lựa chọn khi mua hàng mà mức giá của iPhone 14 Pro Max sẽ có sự thay đổ </span>",
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-2.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-1-1.jpg"
+      ],
+      "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 14, trong đó phiên bản iPhone 14 512GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+      "categoryId": 1,
+      "variants": [
+        {
+          "id": "11.1",
+          "name": "Điện thoại iPhone 14 Pro Max 128GB Màu Tím",
+          "slug": "Điện-thoại-iPhone-14-Pro-Max -128GB ",
+          "price": 33990000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/251192/iphone-14-pro-tim-4.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "color": "Tím",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<h4> <strong> Là sản phẩm nổi bật nhất trong series lần này, vào 0 giờ sáng ngày 08/09/2022 theo giờ Việt Nam, nhà Apple đã chính thức ra mắt các mẫu iPhone 14 mới nhất</strong > </h4> <span> sự tập trung đề đổ dồn vào chiếc iPhone 14 Pro Max 128GB với thiết kế phần cắt viên thuốc đặc sắc hoàn toàn mới thay thế đi phần tai thỏ trước đây đặt chính giữa màn hình và nâng cấp một số tính năng được trang bị cho hai siêu phẩm này. Chắc hẳn các iFans đang rất trông chờ về mặt thiết kế cũng như các thông số kỹ thuật của điện thoại iPhone 14 Pro Max. Vậy chiếc iPhone 14 Pro Max 128GB sẽ có gì khác biệt so với các siêu phẩm iPhone khác. Cùng 24hStore tìm hiểu nhé! </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/2022/10/20/iphone-14-series-25.jpg\" /> <h1> 1. Điện thoại iPhone 14 Pro Max 128GB được cải tiến ấn tượng như thế nào? </h1> <h2>1.1 Thiết kế mới nổi bật của iPhone 14 Pro Max</h2> <a> Apple iPhone 14</a ><span> Pro Max 128GB được thiết kế bằng thép không gỉ và kính mờ với kết cấu đẹp mắt. Kích thước của iPhone 14 Pro Max 128GB sẽ là 6.7 inch với thiết kế màn hình có các góc được bo tròn theo thiết kế cong đẹp mắt và các góc này sẽ được thiết kế nằm trong hình chữ nhật tiêu chuẩn. Không chỉ thế, iPhone 14 Pro Max 128GB còn được cải tiến mặt kính màn hình điện thoại với mặt trước Ceramic Shield cứng hơn bất kỳ loại kính điện thoại thông minh trên thế giới kết hợp với khả năng chống tia nước, chống nước và bụi. Ngoài ra, iPhone 14 Pro Max đã được thử nghiệm trong các điều kiện phòng thí nghiệm được kiểm soát và có xếp hạng IP68 nhằm cho iPhone có thể kháng nước ở độ sâu tối đa 6 mét trong tối đa 30 phút. Điều đặc biệt trong lần ra mắt lần này thì iPhone 14 Pro Max 128GB sẽ có 4 màu sắc tùy chọn là đen, trắng, vàng và tím mới vô cùng nổi bật.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/mau-sac-iphone-14.jpg\" /> <h2>1.2 Màn hình nâng cấp Super Retina XDR kết hợp với công nghệ ProMotion</h2> <span> Màn hình của iPhone 14 Pro Max 128GB được cải tiến với công nghệ màn hình Super Retina XDR kết hợp với ProMotion lên đến 120 HZ giúp màn hình iPhone có thêm tính năng hiển thị Always-On lần đầu tiên trên iPhone nhằm giúp màn hình khóa trên iPhone trở nên hữu dụng hơn với người dùng. Ngoài ra, Apple còn kích hoạt thêm tốc độ làm mới màn hình lên tới 1Hz cùng với công nghệ tiết kiệm điện năng khi sử dụng độ phân giải màn hình cao. Không chỉ thế, Apple còn cải tiến thêm mức độ sáng HDR cao nhất lên đến 2000 nits trên màn hình điện thoại iPhone 14 Pro Max 128GB. Đây có thể nói là độ sáng ngoài trời cao nhất đối với các dòng điện thoại thông minh ở thời điểm hiện tại và sáng gấp đôi dòng iPhone 13 Pro Max thế hệ trước. Điều đặc biệt là Apple đổi mới khu vực notch được tối ưu hơn với tính năng Dynamic Island cho phép những cách mới để tương tác với iPhone, có thiết kế kết hợp ranh giới giữa phần cứng và phần mềm, thích ứng trong thời gian thực để hiển thị các cảnh báo, thông báo và hoạt động quan trọng. Với sự ra đời của Dynamic Island, camera TrueDepth đã được thiết kế lại để chiếm ít diện tích hiển thị hơn. Không cản trở nội dung trên màn hình, Dynamic Island còn có duy trì trạng thái hoạt động để cho phép người dùng truy cập dễ dàng hơn vào các điều khiển chỉ bằng một thao tác chạm và giữ đơn giản. Các tính năng có thể hoạt động trên khu vực notch có thể là bản đồ, âm nhạc hoặc đồng hồ hẹn giờ vẫn hiển thị và tương tác và các ứng dụng của bên thứ ba có trong bản cập nhật iOS 16. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/Content%2024h%20store%20k%C3%ADch%20c%E1%BB%A1%20799x499%20(22).png\" /> <span> Vì iPhone 14 Pro Max có nhiều màu, dung lượng máy cũng nhiều loại để người dùng lựa chọn, qua đó bảng giá của dòng điện thoại này cũng khá đa dạng. Tùy vào sự lựa chọn khi mua hàng mà mức giá của iPhone 14 Pro Max sẽ có sự thay đổ </span>"
+        },
+        {
+          "id": "11.2",
+          "name": "Điện thoại iPhone 14 Pro Max 128GB Màu Đen",
+          "slug": "Điện-thoại-iPhone-14-Pro-Max -128GB ",
+          "price": 43900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-1-1-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-2-1-org.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/153856/iphone-11-den-3-1-org.jpg"
+          ],
+          "description": "Apple đã chính thức trình làng bộ 3 siêu phẩm iPhone 11, trong đó phiên bản iPhone 11 64GB có mức giá rẻ nhất nhưng vẫn được nâng cấp mạnh mẽ như iPhone Xr ra mắt trước đó.",
+          "categoryId": 1,
+          "color": "Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "IOS",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<h4> <strong> Là sản phẩm nổi bật nhất trong series lần này, vào 0 giờ sáng ngày 08/09/2022 theo giờ Việt Nam, nhà Apple đã chính thức ra mắt các mẫu iPhone 14 mới nhất</strong > </h4> <span> sự tập trung đề đổ dồn vào chiếc iPhone 14 Pro Max 128GB với thiết kế phần cắt viên thuốc đặc sắc hoàn toàn mới thay thế đi phần tai thỏ trước đây đặt chính giữa màn hình và nâng cấp một số tính năng được trang bị cho hai siêu phẩm này. Chắc hẳn các iFans đang rất trông chờ về mặt thiết kế cũng như các thông số kỹ thuật của điện thoại iPhone 14 Pro Max. Vậy chiếc iPhone 14 Pro Max 128GB sẽ có gì khác biệt so với các siêu phẩm iPhone khác. Cùng 24hStore tìm hiểu nhé! </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/2022/10/20/iphone-14-series-25.jpg\" /> <h1> 1. Điện thoại iPhone 14 Pro Max 128GB được cải tiến ấn tượng như thế nào? </h1> <h2>1.1 Thiết kế mới nổi bật của iPhone 14 Pro Max</h2> <a> Apple iPhone 14</a ><span> Pro Max 128GB được thiết kế bằng thép không gỉ và kính mờ với kết cấu đẹp mắt. Kích thước của iPhone 14 Pro Max 128GB sẽ là 6.7 inch với thiết kế màn hình có các góc được bo tròn theo thiết kế cong đẹp mắt và các góc này sẽ được thiết kế nằm trong hình chữ nhật tiêu chuẩn. Không chỉ thế, iPhone 14 Pro Max 128GB còn được cải tiến mặt kính màn hình điện thoại với mặt trước Ceramic Shield cứng hơn bất kỳ loại kính điện thoại thông minh trên thế giới kết hợp với khả năng chống tia nước, chống nước và bụi. Ngoài ra, iPhone 14 Pro Max đã được thử nghiệm trong các điều kiện phòng thí nghiệm được kiểm soát và có xếp hạng IP68 nhằm cho iPhone có thể kháng nước ở độ sâu tối đa 6 mét trong tối đa 30 phút. Điều đặc biệt trong lần ra mắt lần này thì iPhone 14 Pro Max 128GB sẽ có 4 màu sắc tùy chọn là đen, trắng, vàng và tím mới vô cùng nổi bật.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/mau-sac-iphone-14.jpg\" /> <h2>1.2 Màn hình nâng cấp Super Retina XDR kết hợp với công nghệ ProMotion</h2> <span> Màn hình của iPhone 14 Pro Max 128GB được cải tiến với công nghệ màn hình Super Retina XDR kết hợp với ProMotion lên đến 120 HZ giúp màn hình iPhone có thêm tính năng hiển thị Always-On lần đầu tiên trên iPhone nhằm giúp màn hình khóa trên iPhone trở nên hữu dụng hơn với người dùng. Ngoài ra, Apple còn kích hoạt thêm tốc độ làm mới màn hình lên tới 1Hz cùng với công nghệ tiết kiệm điện năng khi sử dụng độ phân giải màn hình cao. Không chỉ thế, Apple còn cải tiến thêm mức độ sáng HDR cao nhất lên đến 2000 nits trên màn hình điện thoại iPhone 14 Pro Max 128GB. Đây có thể nói là độ sáng ngoài trời cao nhất đối với các dòng điện thoại thông minh ở thời điểm hiện tại và sáng gấp đôi dòng iPhone 13 Pro Max thế hệ trước. Điều đặc biệt là Apple đổi mới khu vực notch được tối ưu hơn với tính năng Dynamic Island cho phép những cách mới để tương tác với iPhone, có thiết kế kết hợp ranh giới giữa phần cứng và phần mềm, thích ứng trong thời gian thực để hiển thị các cảnh báo, thông báo và hoạt động quan trọng. Với sự ra đời của Dynamic Island, camera TrueDepth đã được thiết kế lại để chiếm ít diện tích hiển thị hơn. Không cản trở nội dung trên màn hình, Dynamic Island còn có duy trì trạng thái hoạt động để cho phép người dùng truy cập dễ dàng hơn vào các điều khiển chỉ bằng một thao tác chạm và giữ đơn giản. Các tính năng có thể hoạt động trên khu vực notch có thể là bản đồ, âm nhạc hoặc đồng hồ hẹn giờ vẫn hiển thị và tương tác và các ứng dụng của bên thứ ba có trong bản cập nhật iOS 16. </span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://24hstore.vn/upload_images/images/Content%2024h%20store%20k%C3%ADch%20c%E1%BB%A1%20799x499%20(22).png\" /> <span> Vì iPhone 14 Pro Max có nhiều màu, dung lượng máy cũng nhiều loại để người dùng lựa chọn, qua đó bảng giá của dòng điện thoại này cũng khá đa dạng. Tùy vào sự lựa chọn khi mua hàng mà mức giá của iPhone 14 Pro Max sẽ có sự thay đổ </span>"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Điện thoại Vivo V25E",
+      "slug": "Điện-thoại-Vivo-V25E ",
+      "price": 84900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-2-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-10.jpg"
+      ],
+      "description": "Cùng với Vivo V25, nhà sản xuất Trung Quốc cũng đã tung ra thị trường mẫu điện thoại Vivo V25E mới sở hữu thiết kế vô cùng hiện đại và độc đáo với mặt lưng kính có thể thay đổi màu sắc, camera 64 MP hỗ trợ OIS và sạc nhanh 44 W, đáp ứng đầy đủ nhu cầu của người dùng.",
+      "categoryId": 4,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "color": "Vàng đồng",
+      "sim": "2 Sim",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<span >Vivo V25E 4G là mẫu điện thoại được săn đón nhiều nhất trong phân khúc smartphone giá tầm trung vừa được cho ra mắt vào đầu tháng 10. Cụ thể dòng máy mới này có tính năng gì nổi bật khiến người dùng muốn sở hữu, cùng tìm hiểu nhé.</span > <h4> <strong> Mua điện thoại Vivo V25E 4G chính hãng tại Siêu thị Điện Máy – Nội Thất Chợ Lớn </strong> </h4> <h4><strong> Thiết kế tối giản, phong cách hiện đại</strong></h4> <span> Sức hút khủng của Vivo V25E 4G đến từ rất nhiều yếu tố, một trong số đó là nhờ thiết kế siêu mỏng, mặt lưng làm bằng kính quang sắc 2.5D đổi màu ấn tượng và có khả năng chống bám vân tay. Máy kiểu dáng vuông cứng cáp, cạnh viền phẳng tương đối đẹp và lôi cuốn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/dien-thoai-vivo-v25e-mau-dep-ruc-ro%20(1).jpg\" /> <span> Kế đến là phần thân máy được thiết kế khá mỏng, nhẹ với kích thước chỉ rơi vào khoảng 7.79mm cùng cân nặng 186g. Máy được tạo hình công thái học cho người dùng cảm giác cầm nắm vừa tay và chắc chắn đáng kể.</span > <h4>Mặt lưng đổi màu đẹp mãn nhãn</h4> <span> Vivo V25E 4G có điểm nhấn sang trọng với mặt lưng bằng kính được hoàn thiện rất tinh xảo. Đặc biệt hơn máy có khả năng biến chuyển màu sắc khi tiếp xúc cùng ánh sáng mạnh. Mặt lưng chiếc điện thoại nhanh chuyển từ vàng sang cam khi ở ngoài trời. Quan sát cho thấy sự đổi màu này rất đẹp làm mãn nhãn thị giác người dùng.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/mat-lung-dien-thoai-doi-mau-dep-man-nhan-thi-giac.jpg\" /> <h4>Màu sắc cực kỳ hút mắt</h4> <span> Điện thoại Vivo V25E 4G có hai màu siêu đẹp mà các tín đồ của smartphone không thể rời mắt khi chạm mắt lần đầu. Phiên bản màu vàng rạng đông nổi bật gợi liên tưởng đến ánh dương ngày mới hòa cùng sắc hoàng hôn rực rỡ. Smartphone của Vivo còn phiên bản màu kim cương đen toát lên vẻ đẹp của sự huyền bí rất hợp cho những người thích phong cách cao cấp, sang trọng. </span>",
+      "variants": [
+        {
+          "id": "12.1",
+          "name": "Điện thoại Vivo V25E Màu Vàng đồng",
+          "slug": "Điện-thoại-Vivo-V25E ",
+          "price": 84900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-1-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-2-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-vang-10.jpg"
+          ],
+          "description": "Cùng với Vivo V25, nhà sản xuất Trung Quốc cũng đã tung ra thị trường mẫu điện thoại Vivo V25E mới sở hữu thiết kế vô cùng hiện đại và độc đáo với mặt lưng kính có thể thay đổi màu sắc, camera 64 MP hỗ trợ OIS và sạc nhanh 44 W, đáp ứng đầy đủ nhu cầu của người dùng.",
+          "categoryId": 4,
+          "color": "Vàng đồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Vivo V25E 4G là mẫu điện thoại được săn đón nhiều nhất trong phân khúc smartphone giá tầm trung vừa được cho ra mắt vào đầu tháng 10. Cụ thể dòng máy mới này có tính năng gì nổi bật khiến người dùng muốn sở hữu, cùng tìm hiểu nhé.</span > <h4> <strong> Mua điện thoại Vivo V25E 4G chính hãng tại Siêu thị Điện Máy – Nội Thất Chợ Lớn </strong> </h4> <h4><strong> Thiết kế tối giản, phong cách hiện đại</strong></h4> <span> Sức hút khủng của Vivo V25E 4G đến từ rất nhiều yếu tố, một trong số đó là nhờ thiết kế siêu mỏng, mặt lưng làm bằng kính quang sắc 2.5D đổi màu ấn tượng và có khả năng chống bám vân tay. Máy kiểu dáng vuông cứng cáp, cạnh viền phẳng tương đối đẹp và lôi cuốn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/dien-thoai-vivo-v25e-mau-dep-ruc-ro%20(1).jpg\" /> <span> Kế đến là phần thân máy được thiết kế khá mỏng, nhẹ với kích thước chỉ rơi vào khoảng 7.79mm cùng cân nặng 186g. Máy được tạo hình công thái học cho người dùng cảm giác cầm nắm vừa tay và chắc chắn đáng kể.</span > <h4>Mặt lưng đổi màu đẹp mãn nhãn</h4> <span> Vivo V25E 4G có điểm nhấn sang trọng với mặt lưng bằng kính được hoàn thiện rất tinh xảo. Đặc biệt hơn máy có khả năng biến chuyển màu sắc khi tiếp xúc cùng ánh sáng mạnh. Mặt lưng chiếc điện thoại nhanh chuyển từ vàng sang cam khi ở ngoài trời. Quan sát cho thấy sự đổi màu này rất đẹp làm mãn nhãn thị giác người dùng.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/mat-lung-dien-thoai-doi-mau-dep-man-nhan-thi-giac.jpg\" /> <h4>Màu sắc cực kỳ hút mắt</h4> <span> Điện thoại Vivo V25E 4G có hai màu siêu đẹp mà các tín đồ của smartphone không thể rời mắt khi chạm mắt lần đầu. Phiên bản màu vàng rạng đông nổi bật gợi liên tưởng đến ánh dương ngày mới hòa cùng sắc hoàng hôn rực rỡ. Smartphone của Vivo còn phiên bản màu kim cương đen toát lên vẻ đẹp của sự huyền bí rất hợp cho những người thích phong cách cao cấp, sang trọng. </span>"
+        },
+        {
+          "id": "12.2",
+          "name": "Điện thoại Vivo V25E Màu Đen",
+          "slug": "Điện-thoại-Vivo-V25E ",
+          "price": 81900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-1-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-5-2.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/283828/vivo-v25e-6-2.jpg"
+          ],
+          "description": "Cùng với Vivo V25, nhà sản xuất Trung Quốc cũng đã tung ra thị trường mẫu điện thoại Vivo V25E mới sở hữu thiết kế vô cùng hiện đại và độc đáo với mặt lưng kính có thể thay đổi màu sắc, camera 64 MP hỗ trợ OIS và sạc nhanh 44 W, đáp ứng đầy đủ nhu cầu của người dùng.",
+          "categoryId": 4,
+          "color": "Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Vivo V25E 4G là mẫu điện thoại được săn đón nhiều nhất trong phân khúc smartphone giá tầm trung vừa được cho ra mắt vào đầu tháng 10. Cụ thể dòng máy mới này có tính năng gì nổi bật khiến người dùng muốn sở hữu, cùng tìm hiểu nhé.</span > <h4> <strong> Mua điện thoại Vivo V25E 4G chính hãng tại Siêu thị Điện Máy – Nội Thất Chợ Lớn </strong> </h4> <h4><strong> Thiết kế tối giản, phong cách hiện đại</strong></h4> <span> Sức hút khủng của Vivo V25E 4G đến từ rất nhiều yếu tố, một trong số đó là nhờ thiết kế siêu mỏng, mặt lưng làm bằng kính quang sắc 2.5D đổi màu ấn tượng và có khả năng chống bám vân tay. Máy kiểu dáng vuông cứng cáp, cạnh viền phẳng tương đối đẹp và lôi cuốn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/dien-thoai-vivo-v25e-mau-dep-ruc-ro%20(1).jpg\" /> <span> Kế đến là phần thân máy được thiết kế khá mỏng, nhẹ với kích thước chỉ rơi vào khoảng 7.79mm cùng cân nặng 186g. Máy được tạo hình công thái học cho người dùng cảm giác cầm nắm vừa tay và chắc chắn đáng kể.</span > <h4>Mặt lưng đổi màu đẹp mãn nhãn</h4> <span> Vivo V25E 4G có điểm nhấn sang trọng với mặt lưng bằng kính được hoàn thiện rất tinh xảo. Đặc biệt hơn máy có khả năng biến chuyển màu sắc khi tiếp xúc cùng ánh sáng mạnh. Mặt lưng chiếc điện thoại nhanh chuyển từ vàng sang cam khi ở ngoài trời. Quan sát cho thấy sự đổi màu này rất đẹp làm mãn nhãn thị giác người dùng.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/di_dong/mat-lung-dien-thoai-doi-mau-dep-man-nhan-thi-giac.jpg\" /> <h4>Màu sắc cực kỳ hút mắt</h4> <span> Điện thoại Vivo V25E 4G có hai màu siêu đẹp mà các tín đồ của smartphone không thể rời mắt khi chạm mắt lần đầu. Phiên bản màu vàng rạng đông nổi bật gợi liên tưởng đến ánh dương ngày mới hòa cùng sắc hoàng hôn rực rỡ. Smartphone của Vivo còn phiên bản màu kim cương đen toát lên vẻ đẹp của sự huyền bí rất hợp cho những người thích phong cách cao cấp, sang trọng. </span>"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Điện thoại Vivo Y15s",
+      "slug": "Điện-thoại-Vivo-Y15s ",
+      "price": 31900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-5.jpg"
+      ],
+      "description": "Vivo Y15s sở hữu nhiều điểm tương đồng với những người anh em Vivo Y15 của mình khi toàn bộ thân máy làm bằng Polymer cao cấp, thiết kế cong cạnh 3D và kiểu dáng mỏng nhẹ chỉ 8.28 mm đem lại cảm giác cầm máy trong tay khá thoải mái.",
+      "categoryId": 4,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Xanh Đen",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<span >Vivo Y15s 32GB được đánh giá là khá tương đồng so với người anh em Y15 đã được ra mắt trước đó về phần ngoại hình bên ngoài. Tuy nhiên thì đây vẫn là 2 dòng sản phẩm nhắm đến những đối tượng người dụng riêng biệt bởi cấu hình phần cứng và mức giá bán. .</span > <h4> <strong> Vivo Y15s (3GB + 32GB) - Trải nghiệm không giới hạn </strong> </h4> <h4><strong> RAM 3GB + ROM 32GB</strong></h4> <span> Với dung lượng RAM 3GB + ROM 32GB, Y15s mang đến dung lượng lưu trữ thoải mái, cho phép bạn lưu giữ tất cả hình ảnh và video yêu thích. Hãy sống trọn vẹn từng phút giây.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-1.JPG\" /> <h4>Màn hình tràn Halo 6.51 inch bảo vệ mắt.</h4> <span> Y15s trang bị Màn Hình Halo 6.51 inch với độ phân giải HD+ (1600x720), mang đến góc nhìn rộng, dù là xem phim hay chơi game bạn luôn được đắm chìm trong những hình ảnh chi tiết.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-2.JPG\" /> <span>Ngoài ra, độ sáng của màn hình sẽ tự động điều chỉnh theo điều kiện môi trường xung quanh và chế độ Bảo Vệ Mắt giúp giảm ánh sáng xanh, bảo vệ thị lực của bạn và mang lại trải nghiệm thoải mái nhất.</span> <h4>Mở khóa vân tay ở cạnh bên</h4> <span> Y15s thiết kế Mở Khóa Vân Tay Cạnh Bên được tích hợp hoàn hảo với nút nguồn, có thể mở khóa chỉ trong một bước sau khi khởi động. Tốc độ mở khóa khi màn hình sáng có thể đạt 0.232s, mang đến cho bạn trải nghiệm người dùng tốt hơn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-3.JPG\" /> <h4>Nhận Diện Khuôn Mặt</h4> <span> Y15s trang bị công nghệ Nhận Diện Khuôn Mặt, bạn chỉ cần nhấc điện thoại đối diện với khuôn mặt là có thể mở khóa dễ dàng. Kết hợp với Vân Tay Cạnh Bên mang đến trải nghiệm mở khóa nhanh chóng và an toàn. </span>",
+      "variants": [
+        {
+          "id": "13.1",
+          "name": "Điện thoại Vivo Y15s Xanh Đen",
+          "slug": "Điện-thoại-Vivo-Y15s ",
+          "price": 31900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-d-5.jpg"
+          ],
+          "description": "Vivo Y15s sở hữu nhiều điểm tương đồng với những người anh em Vivo Y15 của mình khi toàn bộ thân máy làm bằng Polymer cao cấp, thiết kế cong cạnh 3D và kiểu dáng mỏng nhẹ chỉ 8.28 mm đem lại cảm giác cầm máy trong tay khá thoải mái.",
+          "categoryId": 4,
+          "color": "Xanh Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Vivo Y15s 32GB được đánh giá là khá tương đồng so với người anh em Y15 đã được ra mắt trước đó về phần ngoại hình bên ngoài. Tuy nhiên thì đây vẫn là 2 dòng sản phẩm nhắm đến những đối tượng người dụng riêng biệt bởi cấu hình phần cứng và mức giá bán. .</span > <h4> <strong> Vivo Y15s (3GB + 32GB) - Trải nghiệm không giới hạn </strong> </h4> <h4><strong> RAM 3GB + ROM 32GB</strong></h4> <span> Với dung lượng RAM 3GB + ROM 32GB, Y15s mang đến dung lượng lưu trữ thoải mái, cho phép bạn lưu giữ tất cả hình ảnh và video yêu thích. Hãy sống trọn vẹn từng phút giây.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-1.JPG\" /> <h4>Màn hình tràn Halo 6.51 inch bảo vệ mắt.</h4> <span> Y15s trang bị Màn Hình Halo 6.51 inch với độ phân giải HD+ (1600x720), mang đến góc nhìn rộng, dù là xem phim hay chơi game bạn luôn được đắm chìm trong những hình ảnh chi tiết.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-2.JPG\" /> <span>Ngoài ra, độ sáng của màn hình sẽ tự động điều chỉnh theo điều kiện môi trường xung quanh và chế độ Bảo Vệ Mắt giúp giảm ánh sáng xanh, bảo vệ thị lực của bạn và mang lại trải nghiệm thoải mái nhất.</span> <h4>Mở khóa vân tay ở cạnh bên</h4> <span> Y15s thiết kế Mở Khóa Vân Tay Cạnh Bên được tích hợp hoàn hảo với nút nguồn, có thể mở khóa chỉ trong một bước sau khi khởi động. Tốc độ mở khóa khi màn hình sáng có thể đạt 0.232s, mang đến cho bạn trải nghiệm người dùng tốt hơn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-3.JPG\" /> <h4>Nhận Diện Khuôn Mặt</h4> <span> Y15s trang bị công nghệ Nhận Diện Khuôn Mặt, bạn chỉ cần nhấc điện thoại đối diện với khuôn mặt là có thể mở khóa dễ dàng. Kết hợp với Vân Tay Cạnh Bên mang đến trải nghiệm mở khóa nhanh chóng và an toàn. </span>"
+        },
+        {
+          "id": "13.2",
+          "name": "Điện thoại Vivo V25E Trắng Xanh",
+          "slug": "Điện-thoại-Vivo-Y15s ",
+          "price": 32900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-tx-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-tx-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/249720/vivo-y15s-2021-tx-5.jpg"
+          ],
+          "description": "Vivo Y15s sở hữu nhiều điểm tương đồng với những người anh em Vivo Y15 của mình khi toàn bộ thân máy làm bằng Polymer cao cấp, thiết kế cong cạnh 3D và kiểu dáng mỏng nhẹ chỉ 8.28 mm đem lại cảm giác cầm máy trong tay khá thoải mái.",
+          "categoryId": 4,
+          "color": "Trắng xanh",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Vivo Y15s 32GB được đánh giá là khá tương đồng so với người anh em Y15 đã được ra mắt trước đó về phần ngoại hình bên ngoài. Tuy nhiên thì đây vẫn là 2 dòng sản phẩm nhắm đến những đối tượng người dụng riêng biệt bởi cấu hình phần cứng và mức giá bán. .</span > <h4> <strong> Vivo Y15s (3GB + 32GB) - Trải nghiệm không giới hạn </strong> </h4> <h4><strong> RAM 3GB + ROM 32GB</strong></h4> <span> Với dung lượng RAM 3GB + ROM 32GB, Y15s mang đến dung lượng lưu trữ thoải mái, cho phép bạn lưu giữ tất cả hình ảnh và video yêu thích. Hãy sống trọn vẹn từng phút giây.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-1.JPG\" /> <h4>Màn hình tràn Halo 6.51 inch bảo vệ mắt.</h4> <span> Y15s trang bị Màn Hình Halo 6.51 inch với độ phân giải HD+ (1600x720), mang đến góc nhìn rộng, dù là xem phim hay chơi game bạn luôn được đắm chìm trong những hình ảnh chi tiết.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-2.JPG\" /> <span>Ngoài ra, độ sáng của màn hình sẽ tự động điều chỉnh theo điều kiện môi trường xung quanh và chế độ Bảo Vệ Mắt giúp giảm ánh sáng xanh, bảo vệ thị lực của bạn và mang lại trải nghiệm thoải mái nhất.</span> <h4>Mở khóa vân tay ở cạnh bên</h4> <span> Y15s thiết kế Mở Khóa Vân Tay Cạnh Bên được tích hợp hoàn hảo với nút nguồn, có thể mở khóa chỉ trong một bước sau khi khởi động. Tốc độ mở khóa khi màn hình sáng có thể đạt 0.232s, mang đến cho bạn trải nghiệm người dùng tốt hơn.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo-y15s/vivo-y15s-3gb-32gb-chinh-hang-dienmaycholon-3.JPG\" /> <h4>Nhận Diện Khuôn Mặt</h4> <span> Y15s trang bị công nghệ Nhận Diện Khuôn Mặt, bạn chỉ cần nhấc điện thoại đối diện với khuôn mặt là có thể mở khóa dễ dàng. Kết hợp với Vân Tay Cạnh Bên mang đến trải nghiệm mở khóa nhanh chóng và an toàn. </span>"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Điện thoại Vivo V23e ",
+      "slug": "Điện-thoại-Vivo-V23e  ",
+      "price": 74900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-4.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-5.jpg"
+      ],
+      "description": "Vivo V23e vẫn giữ đặc điểm nổi bật của Vivo V Series với thiết kế mỏng 7.36 mm ấn tượng (ở phiên bản màu đen). Viền màn hình 2 cạnh bên có độ mỏng ở mức vừa phải, tuy nhiên thì phần cạnh dưới thì có dày hơn một chút.",
+      "categoryId": 4,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Xanh hồng",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<span >Với Vivo V23e 128GB, mọi khuôn hình selfie của bạn sẽ đẹp lung linh nhờ sự trợ giúp của camera selfie 50MP kết hợp cùng công nghệ Eye Autofocus. Ngoài ra, vivo đã thành công trong việc đưa hàng loạt tính năng đỉnh cao của hãng vào bộ khung vỏ mỏng nhẹ, thời trang, đầy phong cách.</span > <h4> <strong> Vivo V23e 8GB 128GB - Tinh tế, mạnh mẽ, nâng tầm trải nghiệm </strong> </h4> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-1.jpg\" /> <h4>Mỏng nhẹ, tinh tế, đơn giản và thoải mái</h4> <span> vivo V23e khoác lên mình thân máy siêu mỏng với độ dày chỉ 7.36mm. Sản phẩm được thiết kế theo phong cách tối giản nhưng không kém phần tinh tế. Thương hiệu điện thoại Vivo đã cho thấy sự thấu hiểu người dùng khi tối ưu kích cỡ thân máy chỉ còn 172 gram, đồng thời phủ một lớp chất liệu siêu mịn nhằm đem đến bề mặt nhám cho các cạnh bao quanh, không chỉ giúp cho trải nghiệm cầm nắm thoải mái hơn, mà còn tối ưu tính thẩm mỹ và gia tăng độ hoàn thiện tổng thể. .</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Với sự lựa chọn các gam màu thông minh và khéo léo ứng dụng hiệu ứng chuyển sắc theo góc nhìn, vivo V23e thể hiện vẻ đẹp mê hoặc và đầy cuốn hút. Mặt lưng sản phẩm được chế tác từ chất liệu rất mịn, chống bám vân tay để người dùng thỏa sức sử dụng trong nhiều giờ liên tục mà không gây bất cứ cảm giác khó chịu nào. Hai phiên bản Giai Điệu Bình Minh và Vũ Điệu Ánh Trăng của V23e chắc chắn sẽ thu hút bạn ngay từ cái nhìn đầu tiên.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Hình ảnh mãn nhãn mà màn hình 20:9 đem lại</h4> <span> Không gian hiển thị hình ảnh rộng 6.44 inch của Vivo V23e được xây dựng theo tỉ lệ khung hình 20:9 và đạt độ phân giải 2.400 x 1.080. Tấm nền AMOLED với thế mạnh trong việc thể hiện sắc đen sâu, tiết kiệm điện sẽ đem đến cho bạn những trải nghiệm trọn vẹn và mãn nhãn nhất. Mọi thước phim, hình ảnh, và thông tin hiển thị trên màn hình vivo V23e đều có độ chi tiết cao, cho thấy sự sắc sảo trong các gam màu. </span>",
+      "variants": [
+        {
+          "id": "14.1",
+          "name": "Điện thoại Vivo V23e Xanh hồng",
+          "slug": "Điện-thoại-Vivo-V23e  ",
+          "price": 74900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-xanh-5.jpg"
+          ],
+          "description": "Vivo V23e vẫn giữ đặc điểm nổi bật của Vivo V Series với thiết kế mỏng 7.36 mm ấn tượng (ở phiên bản màu đen). Viền màn hình 2 cạnh bên có độ mỏng ở mức vừa phải, tuy nhiên thì phần cạnh dưới thì có dày hơn một chút.",
+          "categoryId": 4,
+          "color": "Xanh hồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Với Vivo V23e 128GB, mọi khuôn hình selfie của bạn sẽ đẹp lung linh nhờ sự trợ giúp của camera selfie 50MP kết hợp cùng công nghệ Eye Autofocus. Ngoài ra, vivo đã thành công trong việc đưa hàng loạt tính năng đỉnh cao của hãng vào bộ khung vỏ mỏng nhẹ, thời trang, đầy phong cách.</span > <h4> <strong> Vivo V23e 8GB 128GB - Tinh tế, mạnh mẽ, nâng tầm trải nghiệm </strong> </h4> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-1.jpg\" /> <h4>Mỏng nhẹ, tinh tế, đơn giản và thoải mái</h4> <span> vivo V23e khoác lên mình thân máy siêu mỏng với độ dày chỉ 7.36mm. Sản phẩm được thiết kế theo phong cách tối giản nhưng không kém phần tinh tế. Thương hiệu điện thoại Vivo đã cho thấy sự thấu hiểu người dùng khi tối ưu kích cỡ thân máy chỉ còn 172 gram, đồng thời phủ một lớp chất liệu siêu mịn nhằm đem đến bề mặt nhám cho các cạnh bao quanh, không chỉ giúp cho trải nghiệm cầm nắm thoải mái hơn, mà còn tối ưu tính thẩm mỹ và gia tăng độ hoàn thiện tổng thể. .</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Với sự lựa chọn các gam màu thông minh và khéo léo ứng dụng hiệu ứng chuyển sắc theo góc nhìn, vivo V23e thể hiện vẻ đẹp mê hoặc và đầy cuốn hút. Mặt lưng sản phẩm được chế tác từ chất liệu rất mịn, chống bám vân tay để người dùng thỏa sức sử dụng trong nhiều giờ liên tục mà không gây bất cứ cảm giác khó chịu nào. Hai phiên bản Giai Điệu Bình Minh và Vũ Điệu Ánh Trăng của V23e chắc chắn sẽ thu hút bạn ngay từ cái nhìn đầu tiên.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Hình ảnh mãn nhãn mà màn hình 20:9 đem lại</h4> <span> Không gian hiển thị hình ảnh rộng 6.44 inch của Vivo V23e được xây dựng theo tỉ lệ khung hình 20:9 và đạt độ phân giải 2.400 x 1.080. Tấm nền AMOLED với thế mạnh trong việc thể hiện sắc đen sâu, tiết kiệm điện sẽ đem đến cho bạn những trải nghiệm trọn vẹn và mãn nhãn nhất. Mọi thước phim, hình ảnh, và thông tin hiển thị trên màn hình vivo V23e đều có độ chi tiết cao, cho thấy sự sắc sảo trong các gam màu. </span>"
+        },
+        {
+          "id": "14.2",
+          "name": "Điện thoại Vivo V23e Xanh hồng Đen",
+          "slug": "Điện-thoại-Vivo-V23e  ",
+          "price": 32900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-den-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-den-4.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/245607/vivo-v23e-den-5.jpg"
+          ],
+          "description": "Vivo V23e vẫn giữ đặc điểm nổi bật của Vivo V Series với thiết kế mỏng 7.36 mm ấn tượng (ở phiên bản màu đen). Viền màn hình 2 cạnh bên có độ mỏng ở mức vừa phải, tuy nhiên thì phần cạnh dưới thì có dày hơn một chút.",
+          "categoryId": 4,
+          "color": "Đen",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Với Vivo V23e 128GB, mọi khuôn hình selfie của bạn sẽ đẹp lung linh nhờ sự trợ giúp của camera selfie 50MP kết hợp cùng công nghệ Eye Autofocus. Ngoài ra, vivo đã thành công trong việc đưa hàng loạt tính năng đỉnh cao của hãng vào bộ khung vỏ mỏng nhẹ, thời trang, đầy phong cách.</span > <h4> <strong> Vivo V23e 8GB 128GB - Tinh tế, mạnh mẽ, nâng tầm trải nghiệm </strong> </h4> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-1.jpg\" /> <h4>Mỏng nhẹ, tinh tế, đơn giản và thoải mái</h4> <span> vivo V23e khoác lên mình thân máy siêu mỏng với độ dày chỉ 7.36mm. Sản phẩm được thiết kế theo phong cách tối giản nhưng không kém phần tinh tế. Thương hiệu điện thoại Vivo đã cho thấy sự thấu hiểu người dùng khi tối ưu kích cỡ thân máy chỉ còn 172 gram, đồng thời phủ một lớp chất liệu siêu mịn nhằm đem đến bề mặt nhám cho các cạnh bao quanh, không chỉ giúp cho trải nghiệm cầm nắm thoải mái hơn, mà còn tối ưu tính thẩm mỹ và gia tăng độ hoàn thiện tổng thể. .</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Với sự lựa chọn các gam màu thông minh và khéo léo ứng dụng hiệu ứng chuyển sắc theo góc nhìn, vivo V23e thể hiện vẻ đẹp mê hoặc và đầy cuốn hút. Mặt lưng sản phẩm được chế tác từ chất liệu rất mịn, chống bám vân tay để người dùng thỏa sức sử dụng trong nhiều giờ liên tục mà không gây bất cứ cảm giác khó chịu nào. Hai phiên bản Giai Điệu Bình Minh và Vũ Điệu Ánh Trăng của V23e chắc chắn sẽ thu hút bạn ngay từ cái nhìn đầu tiên.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Hình ảnh mãn nhãn mà màn hình 20:9 đem lại</h4> <span> Không gian hiển thị hình ảnh rộng 6.44 inch của Vivo V23e được xây dựng theo tỉ lệ khung hình 20:9 và đạt độ phân giải 2.400 x 1.080. Tấm nền AMOLED với thế mạnh trong việc thể hiện sắc đen sâu, tiết kiệm điện sẽ đem đến cho bạn những trải nghiệm trọn vẹn và mãn nhãn nhất. Mọi thước phim, hình ảnh, và thông tin hiển thị trên màn hình vivo V23e đều có độ chi tiết cao, cho thấy sự sắc sảo trong các gam màu. </span>"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Điện thoại Samsung Galaxy Z Flip4 128GB  ",
+      "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+      "price": 29900000,
+      "images": [
+        "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-1.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-5.jpg",
+        "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-6.jpg"
+      ],
+      "description": "Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất điện thoại đã cho ra mắt các sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .",
+      "categoryId": 2,
+      "screen": " IPS LCD6.5\"HD+ ",
+      "Operating_System": "Android 11",
+      "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+      "camera_2": "12 MP",
+      "chip": "MediaTek Helio P35",
+      "ram": "4GB",
+      "RAM_memory": "126 GB",
+      "sim": "2 Sim",
+      "color": "Xanh hồng",
+      "Battery_Capacity": "5000 mAh18 W",
+      "content": "<span >Không đơn thuần là một chiếc smartphone, đây còn được xem là món phụ kiện thời trang cao cấp đến từ nhà Samsung . Chiếc smartphone Samsung Galaxy Z Flip4 256GB là sản phẩm được nâng cấp thành công từ phiên bản Samsung Galaxy Z Flip3 256GB.</span > <h4> <strong> Samsung Galaxy Z Flip4 256GB - Bước tiến mới trong thiết kế điện thoại gập độc đáo </strong> </h4> <h4> <strong> Samsung Galaxy Z Flip4 256GB - Nhỏ gọn trong lòng bàn tay của bạn </strong> </h4> <span> Samsung Galaxy Z Flip4 256GB ra mắt với 4 phiên bản màu sắc như tím Bora, xám Graphite, hồng Champane, xanh Love Bird và sở hữu ngoại hình bắt trend giúp người dùng có thêm nhiều sự lựa chọn dành cho bản thân. Ngoài ra, các góc cạnh của điện thoại được gia công phẳng một cách tinh tế kết hợp với tone màu trẻ trung thời thượng giúp người dùng toát lên được vẻ ngoài sang trọng và đầy tính hiện đại khi sử dụng.</span> <br> <span>Lần ra mắt này Samsung cho biết hãng đã nâng cấp phần bản lề để tăng tổng số lần gập trên Galaxy Z Flip4 lên đến 200.000. Tổng thể chiếc Galaxy Z Flip 4 256GB được bao bọc bởi bộ khung làm từ vật liệu nhôm Armor Aluminum cao cấp. không chỉ gia tăng độ bền làm tăng tuổi thọ mà còn giúp cho điện thoại toát lên được vẻ ngoài sang trọng và đẳng cấp nhờ khả năng phản quang óng ánh.</span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256gb-1.jpg\" /> <span>Samsung Galaxy Z Flip 4 256GB có một thân hình thon gọn nhờ ứng dụng tỉ lệ màn hình 22:9, điều này giúp cho quá trình cầm nắm của bạn trở nên dễ dàng hơn bởi bề rộng của máy được tối ưu đi. Với kích thước chiều dài sau khi gập là 84.8 mm, bạn có thể đựng trong túi quần hay bất kì vật dụng có kích thước nhỏ nào. Một điều đặc biệt nữa ở chiếc điện thoại di động Samsung gập đầu tiên trên thế giới này chính là tính năng hỗ trợ chuẩn kháng nước IPX8, giờ đây mọi người có thể an tâm hơn trong những tình huống khi vô tình tiếp xúc với nước mà không lo điện thoại bị hỏng.</span> <h4>Hiển thị hình ảnh sinh động</h4> <span> Sảm phẩm được trang bị tấm nền Dynamic AMOLED 2X cao cấp đến từ nhà Samsung với khả năng tái hiện hình ảnh có màu sắc sống động và rực rỡ. Màu đen trên màn hình cũng được hiển thị sâu giúp cho người dùng có thể trải nghiệm nội dung trên các tựa game hay bộ phim hành động trở nên chân thực hơn. Mật độ điểm ảnh được gia tăng lên 425 PPI vì máy được trang bị màn hình kích thước 6.7 inch cùng độ phân giải Full HD+ (1080 x 2640 Pixels). Các tác vụ chỉnh sửa ảnh sẽ được xử lý dễ dàng hơn trên chiếc Galaxy Z Flip4 256GB bởi độ sắc nét mà nó mang lại là rất cao.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256GB-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Phần mặt lưng của máy sẽ được trang bị một màn hình phụ có kích thước 1.9 inch giúp người dùng có thể đọc nhanh những thông báo, thậm chí ở phiên bản này máy còn hỗ trợ nhận cuộc gọi trực tiếp từ màn hình phụ mà không cần phải mở điện thoại. Với tần số quét lên đến 120Hz ở màn hình chính giúp cho mọi thao tác hàng ngày của bạn được diễn ra trơn mượt, ngoài ra máy còn có khả năng tự động điều chỉnh xuống còn 1 Hz cho những tác vụ không cần cuộn lướt quá nhiều để tiết kiệm điện năng tiêu thụ.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Chụp ảnh quay phim sắc nét</h4> <span> Khác với dòng Samsung Galaxy Z Flip3 128GB, điện thoại Samsung Z Flip4 256GB sở hữu ở phần mặt lưng là bộ đôi camera có cùng độ phân giải 12 MP với khả năng thu lại hình ảnh sắc nét, cũng như giúp bạn có thể quay được những thước phim đạt chuẩn 4K.</span>",
+      "variants": [
+        {
+          "id": "15.1",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Xanh hồng  ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 29900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-5.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/samsung-galaxy-z-flip4-xanh-128gb-6.jpg"
+          ],
+          "description": "Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất điện thoại đã cho ra mắt các sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .",
+          "categoryId": 2,
+          "color": "Xanh hồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Không đơn thuần là một chiếc smartphone, đây còn được xem là món phụ kiện thời trang cao cấp đến từ nhà Samsung . Chiếc smartphone Samsung Galaxy Z Flip4 256GB là sản phẩm được nâng cấp thành công từ phiên bản Samsung Galaxy Z Flip3 256GB.</span > <h4> <strong> Samsung Galaxy Z Flip4 256GB - Bước tiến mới trong thiết kế điện thoại gập độc đáo </strong> </h4> <h4> <strong> Samsung Galaxy Z Flip4 256GB - Nhỏ gọn trong lòng bàn tay của bạn </strong> </h4> <span> Samsung Galaxy Z Flip4 256GB ra mắt với 4 phiên bản màu sắc như tím Bora, xám Graphite, hồng Champane, xanh Love Bird và sở hữu ngoại hình bắt trend giúp người dùng có thêm nhiều sự lựa chọn dành cho bản thân. Ngoài ra, các góc cạnh của điện thoại được gia công phẳng một cách tinh tế kết hợp với tone màu trẻ trung thời thượng giúp người dùng toát lên được vẻ ngoài sang trọng và đầy tính hiện đại khi sử dụng.</span> <br> <span>Lần ra mắt này Samsung cho biết hãng đã nâng cấp phần bản lề để tăng tổng số lần gập trên Galaxy Z Flip4 lên đến 200.000. Tổng thể chiếc Galaxy Z Flip 4 256GB được bao bọc bởi bộ khung làm từ vật liệu nhôm Armor Aluminum cao cấp. không chỉ gia tăng độ bền làm tăng tuổi thọ mà còn giúp cho điện thoại toát lên được vẻ ngoài sang trọng và đẳng cấp nhờ khả năng phản quang óng ánh.</span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256gb-1.jpg\" /> <span>Samsung Galaxy Z Flip 4 256GB có một thân hình thon gọn nhờ ứng dụng tỉ lệ màn hình 22:9, điều này giúp cho quá trình cầm nắm của bạn trở nên dễ dàng hơn bởi bề rộng của máy được tối ưu đi. Với kích thước chiều dài sau khi gập là 84.8 mm, bạn có thể đựng trong túi quần hay bất kì vật dụng có kích thước nhỏ nào. Một điều đặc biệt nữa ở chiếc điện thoại di động Samsung gập đầu tiên trên thế giới này chính là tính năng hỗ trợ chuẩn kháng nước IPX8, giờ đây mọi người có thể an tâm hơn trong những tình huống khi vô tình tiếp xúc với nước mà không lo điện thoại bị hỏng.</span> <h4>Hiển thị hình ảnh sinh động</h4> <span> Sảm phẩm được trang bị tấm nền Dynamic AMOLED 2X cao cấp đến từ nhà Samsung với khả năng tái hiện hình ảnh có màu sắc sống động và rực rỡ. Màu đen trên màn hình cũng được hiển thị sâu giúp cho người dùng có thể trải nghiệm nội dung trên các tựa game hay bộ phim hành động trở nên chân thực hơn. Mật độ điểm ảnh được gia tăng lên 425 PPI vì máy được trang bị màn hình kích thước 6.7 inch cùng độ phân giải Full HD+ (1080 x 2640 Pixels). Các tác vụ chỉnh sửa ảnh sẽ được xử lý dễ dàng hơn trên chiếc Galaxy Z Flip4 256GB bởi độ sắc nét mà nó mang lại là rất cao.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256GB-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Phần mặt lưng của máy sẽ được trang bị một màn hình phụ có kích thước 1.9 inch giúp người dùng có thể đọc nhanh những thông báo, thậm chí ở phiên bản này máy còn hỗ trợ nhận cuộc gọi trực tiếp từ màn hình phụ mà không cần phải mở điện thoại. Với tần số quét lên đến 120Hz ở màn hình chính giúp cho mọi thao tác hàng ngày của bạn được diễn ra trơn mượt, ngoài ra máy còn có khả năng tự động điều chỉnh xuống còn 1 Hz cho những tác vụ không cần cuộn lướt quá nhiều để tiết kiệm điện năng tiêu thụ.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Chụp ảnh quay phim sắc nét</h4> <span> Khác với dòng Samsung Galaxy Z Flip3 128GB, điện thoại Samsung Z Flip4 256GB sở hữu ở phần mặt lưng là bộ đôi camera có cùng độ phân giải 12 MP với khả năng thu lại hình ảnh sắc nét, cũng như giúp bạn có thể quay được những thước phim đạt chuẩn 4K.</span>"
+        },
+        {
+          "id": "15.2",
+          "name": "Điện thoại Samsung Galaxy Z Flip4 128GB Vàng đồng  ",
+          "slug": "Điện-thoại-Samsung-Galaxy-Z-Flip4-128GB  ",
+          "price": 29900000,
+          "images": [
+            "https://cdn.tgdd.vn/Products/Images/42/258047/sam-sung-galaxy-zflip4-vang-hong-1.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/sam-sung-galaxy-zflip4-vang-hong-3.jpg",
+            "https://cdn.tgdd.vn/Products/Images/42/258047/sam-sung-galaxy-zflip4-vang-hong-2.jpg"
+          ],
+          "description": "Có lẽ điện thoại gập đã không còn là cái tên quá xa lạ bởi nhiều ông lớn trong ngành sản xuất điện thoại đã cho ra mắt các sản phẩm có thiết kế tương tự, gần đây nhất thì có sự góp mặt của chiếc flagship đến từ nhà Samsung mang tên Galaxy Z Flip4. .",
+          "categoryId": 2,
+          "color": "Vàng đồng",
+          "screen": " IPS LCD6.5\"HD+ ",
+          "Operating_System": "Android 11",
+          "camera_1": "Chính 13 MP & Phụ 2 MP, 2 MP",
+          "camera_2": "12 MP",
+          "chip": "MediaTek Helio P35",
+          "ram": "4GB",
+          "RAM_memory": "126 GB",
+          "sim": "2 Sim",
+          "Battery_Capacity": "5000 mAh18 W",
+          "content": "<span >Không đơn thuần là một chiếc smartphone, đây còn được xem là món phụ kiện thời trang cao cấp đến từ nhà Samsung . Chiếc smartphone Samsung Galaxy Z Flip4 256GB là sản phẩm được nâng cấp thành công từ phiên bản Samsung Galaxy Z Flip3 256GB.</span > <h4> <strong> Samsung Galaxy Z Flip4 256GB - Bước tiến mới trong thiết kế điện thoại gập độc đáo </strong> </h4> <h4> <strong> Samsung Galaxy Z Flip4 256GB - Nhỏ gọn trong lòng bàn tay của bạn </strong> </h4> <span> Samsung Galaxy Z Flip4 256GB ra mắt với 4 phiên bản màu sắc như tím Bora, xám Graphite, hồng Champane, xanh Love Bird và sở hữu ngoại hình bắt trend giúp người dùng có thêm nhiều sự lựa chọn dành cho bản thân. Ngoài ra, các góc cạnh của điện thoại được gia công phẳng một cách tinh tế kết hợp với tone màu trẻ trung thời thượng giúp người dùng toát lên được vẻ ngoài sang trọng và đầy tính hiện đại khi sử dụng.</span> <br> <span>Lần ra mắt này Samsung cho biết hãng đã nâng cấp phần bản lề để tăng tổng số lần gập trên Galaxy Z Flip4 lên đến 200.000. Tổng thể chiếc Galaxy Z Flip 4 256GB được bao bọc bởi bộ khung làm từ vật liệu nhôm Armor Aluminum cao cấp. không chỉ gia tăng độ bền làm tăng tuổi thọ mà còn giúp cho điện thoại toát lên được vẻ ngoài sang trọng và đẳng cấp nhờ khả năng phản quang óng ánh.</span> <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256gb-1.jpg\" /> <span>Samsung Galaxy Z Flip 4 256GB có một thân hình thon gọn nhờ ứng dụng tỉ lệ màn hình 22:9, điều này giúp cho quá trình cầm nắm của bạn trở nên dễ dàng hơn bởi bề rộng của máy được tối ưu đi. Với kích thước chiều dài sau khi gập là 84.8 mm, bạn có thể đựng trong túi quần hay bất kì vật dụng có kích thước nhỏ nào. Một điều đặc biệt nữa ở chiếc điện thoại di động Samsung gập đầu tiên trên thế giới này chính là tính năng hỗ trợ chuẩn kháng nước IPX8, giờ đây mọi người có thể an tâm hơn trong những tình huống khi vô tình tiếp xúc với nước mà không lo điện thoại bị hỏng.</span> <h4>Hiển thị hình ảnh sinh động</h4> <span> Sảm phẩm được trang bị tấm nền Dynamic AMOLED 2X cao cấp đến từ nhà Samsung với khả năng tái hiện hình ảnh có màu sắc sống động và rực rỡ. Màu đen trên màn hình cũng được hiển thị sâu giúp cho người dùng có thể trải nghiệm nội dung trên các tựa game hay bộ phim hành động trở nên chân thực hơn. Mật độ điểm ảnh được gia tăng lên 425 PPI vì máy được trang bị màn hình kích thước 6.7 inch cùng độ phân giải Full HD+ (1080 x 2640 Pixels). Các tác vụ chỉnh sửa ảnh sẽ được xử lý dễ dàng hơn trên chiếc Galaxy Z Flip4 256GB bởi độ sắc nét mà nó mang lại là rất cao.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/samsung-galaxy-z-flip4-256gb/samsung-galaxy-z-flip4-256GB-2.jpg\" /> <h4>Mặt lưng chống bám vân tay, thu hút mọi ánh nhìn</h4> <span> Phần mặt lưng của máy sẽ được trang bị một màn hình phụ có kích thước 1.9 inch giúp người dùng có thể đọc nhanh những thông báo, thậm chí ở phiên bản này máy còn hỗ trợ nhận cuộc gọi trực tiếp từ màn hình phụ mà không cần phải mở điện thoại. Với tần số quét lên đến 120Hz ở màn hình chính giúp cho mọi thao tác hàng ngày của bạn được diễn ra trơn mượt, ngoài ra máy còn có khả năng tự động điều chỉnh xuống còn 1 Hz cho những tác vụ không cần cuộn lướt quá nhiều để tiết kiệm điện năng tiêu thụ.</span > <img style=\"margin-top:5px; margin-bottom: 5px\" src=\"https://cdn01.dienmaycholon.vn/filewebdmclnew/public/userupload/files/vivo%20v23e/Vivo-v23e-8gb-128gb-dienmaycholon-3.jpg\" /> <h4>Chụp ảnh quay phim sắc nét</h4> <span> Khác với dòng Samsung Galaxy Z Flip3 128GB, điện thoại Samsung Z Flip4 256GB sở hữu ở phần mặt lưng là bộ đôi camera có cùng độ phân giải 12 MP với khả năng thu lại hình ảnh sắc nét, cũng như giúp bạn có thể quay được những thước phim đạt chuẩn 4K.</span>"
+        }
+      ]
+    }
+  ]
+}
